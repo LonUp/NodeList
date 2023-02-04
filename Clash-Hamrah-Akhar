@@ -110,6 +110,7 @@ fake-ip-filter:
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
 proxies:
+  - {"name":"🇩🇪⋑DE⋑Ꮮᝪᑎᑌᑭ𖡺لوناپ⋑1","type":"vmess","server":"de-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"de-ls03.nb1.fr"}}}
   - {"name":"🇬🇧⋑GB⋑Ꮮᝪᑎᑌᑭ𖡺لوناپ⋑2","type":"vmess","server":"gb-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"gb-ls03.nb1.fr"}}}
   - {"name":"🇸🇪⋑SE⋑Ꮮᝪᑎᑌᑭ𖡺لوناپ⋑3","type":"vmess","server":"se-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"se-ls03.nb1.fr"}}}
   - {"name":"🇸🇪⋑SE⋑Ꮮᝪᑎᑌᑭ𖡺لوناپ⋑4","type":"vmess","server":"se-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"se-ls03.nb1.fr"}}}
