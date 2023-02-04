@@ -500,7 +500,7 @@ proxies:
   - {"name":"🇨🇳◍CN◍Ꮮᝪᑎᑌᑭ𖡺لوناپ◍388","type":"trojan","server":"123.6.102.124","port":61001,"udp":true,"password":"ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9","sni":"$65-108-102-32.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷◍KR◍Ꮮᝪᑎᑌᑭ𖡺لوناپ◍389","type":"vmess","server":"150.230.249.15","port":46842,"cipher":"auto","uuid":"4530b5ee-ced4-4e64-9285-1867fc5df7f8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
-  - name: 🌐ALL
+  - name: 🌐ALL⟪@LonUp_M⟫
     type: select
     proxies:
       - ⚓Direct
@@ -912,8 +912,8 @@ proxy-groups:
       - 🧠load-balance⇋3
       - 🧠load-balance⇋4
       - 🧠load-balance⇋5
-      - 💦relay
-  - name: 💦relay
+      - 💦t.me/LonUp_M
+  - name: 💦t.me/LonUp_M
     type: relay
     proxies:
       - 🇰🇷◍KR◍Ꮮᝪᑎᑌᑭ𖡺لوناپ◍1
