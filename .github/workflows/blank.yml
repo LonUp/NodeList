@@ -1,17 +1,21 @@
 #-------------------------------------------------------------#
 # Telegram Channel:@LONUP_M
 #-------------------------------------------------------------#
-port: 7890
-socks-port: 7891
+mixed-port: 6985
 allow-lan: true
 mode: rule
-log-level: debug
-external-controller: 0.0.0.0:9090
+log-level: info
+external-controller: 127.0.0.1:9090
+cfw-latency-timeout: 7000
+cfw-latency-url: http://www.google-analytics.com/generate_204
+cfw-proxies-order: latency
+experimental:
+  ignore-resolve-fail: true
 ipv6: true
 dns:
   enable: true
   ipv6: true
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   nameserver:
     - https://basic.rethinkdns.com/dns-query
     - https://NoTMIKE.dev/dns.php
@@ -110,14 +114,14 @@ fake-ip-filter:
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
 proxies:
-  - {"type":"vmess","name":"🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1","http-opts":{"path":["/"],"headers":{"Host":["snapp.ir"]}},"server":"79.132.134.56","port":"16998","uuid":"19c9e411-8707-4c01-fac0-8a60d9b19154","alterId":"0","cipher":"auto","network":"http"}
+  - {"name":"Ꮮᝪᑎᑌᑭ 𖡺","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
-  - name: 🌐ALL
+  - name: 🌐ALL ⟪@LonUp_M⟫
     type: select
     proxies:
       - ⚓Direct
       - ⛔BLOCK
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 👑TestGroups
     type: select
     proxies:
@@ -125,122 +129,99 @@ proxy-groups:
       - ⚡test⊶2
       - ⚡test⊶3
       - ⚡test⊶4
-      - ⚡test⊶5
       - 🔹fallback◈1
       - 🔹fallback◈2
       - 🔹fallback◈3
       - 🔹fallback◈4
-      - 🔹fallback◈5
       - 🧠load-balance⇋1
       - 🧠load-balance⇋2
       - 🧠load-balance⇋3
       - 🧠load-balance⇋4
-      - 🧠load-balance⇋5
       - 💦relay
   - name: 💦relay
     type: relay
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: ⚡test⊶1
     type: url-test
-    url: 'http://cp.cloudflare.com/'
-    interval: 222
-    tolerance: 66
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 800
+    tolerance: 300
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: ⚡test⊶2
     type: url-test
-    url: 'https://www.example.com'
-    interval: 222
-    tolerance: 66
+    url: 'http://cp.cloudflare.com/'
+    interval: 800
+    tolerance: 300
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: ⚡test⊶3
     type: url-test
-    url: 'http://www.google.com/generate_204'
-    interval: 222
-    tolerance: 66
+    url: 'http://captive.apple.com'
+    interval: 800
+    tolerance: 300
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: ⚡test⊶4
     type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 222
-    tolerance: 66
+    url: 'http://detectportal.firefox.com/success.txt'
+    interval: 800
+    tolerance: 300
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
-  - name: ⚡test⊶5
-    type: url-test
-    url: 'http://t.me/'
-    interval: 222
-    tolerance: 66
-    proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🔹fallback◈1
     type: fallback
-    url: 'http://cp.cloudflare.com/'
-    interval: 222
+    url: 'http://www.google-analytics.com/generate_204'
+    interval: 700
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🔹fallback◈2
     type: fallback
-    url: 'https://www.example.com'
-    interval: 222
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 700
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🔹fallback◈3
     type: fallback
-    url: 'http://www.google.com/generate_204'
-    interval: 222
+    url: 'http://www.apple.com/library/test/success.html'
+    interval: 700
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🔹fallback◈4
     type: fallback
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 222
+    url: 'http://connect.rom.miui.com/generate_204'
+    interval: 700
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
-  - name: 🔹fallback◈5
-    type: fallback
-    url: 'http://t.me/'
-    interval: 222
-    proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🧠load-balance⇋1
     type: load-balance
-    url: 'http://cp.cloudflare.com/'
-    interval: 222
+    url: 'http://www.google.com/generate_204'
+    interval: 666
     strategy: round-robin
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🧠load-balance⇋2
     type: load-balance
-    url: 'https://www.example.com'
-    interval: 222
+    url: 'https://raw.githubusercontent.com/LonUp/NodeList/main/URL_TEST.yaml'
+    interval: 666
     strategy: consistent-hashing
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🧠load-balance⇋3
     type: load-balance
-    url: 'http://www.google.com/generate_204'
-    interval: 222
+    url: 'http://www.msftconnecttest.com/connecttest.txt'
+    interval: 666
     strategy: round-robin
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: 🧠load-balance⇋4
     type: load-balance
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 222
+    url: 'http://www.qualcomm.cn/generate_204'
+    interval: 666
     strategy: consistent-hashing
     proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
-  - name: 🧠load-balance⇋5
-    type: load-balance
-    url: 'http://t.me/'
-    interval: 222
-    strategy: round-robin
-    proxies:
-      - 🇩🇪⫶DE⫶Ꮮᝪᑎᑌᑭ𖡺لوناپ⫶1
+      - Ꮮᝪᑎᑌᑭ 𖡺
   - name: ⚓Direct
     type: select
     proxies:
@@ -249,7 +230,49 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 900000
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 900000
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 900000
+
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 900000
+
+  AdBlock:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/LonUp/NodeList/main/NoTracking_Rules_Provider.txt"
+    path: ./ruleset/NoTracking_Rules_Provider.txt
+    interval: 900000
 rules:
- - GEOIP,IR,⚓Direct
- - DOMAIN-SUFFIX,ir,⚓Direct
- - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, ⚡test⊶5, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🧠load-balance⇋5, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4, 🔹fallback◈5,
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4,
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,google,DIRECT
+  - RULE-SET,iran,DIRECT
+  - RULE-SET,AdBlock,REJECT
+  - GEOIP,LAN,DIRECT
