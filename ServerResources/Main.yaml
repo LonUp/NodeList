@@ -26,4 +26,4 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
     interval: 3600
-    path: ./clash.config.yaml
+    path: ./pro1.yaml
