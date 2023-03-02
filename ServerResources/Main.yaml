@@ -6,6 +6,7 @@ allow-lan: true
 mode: rule
 log-level: error 
 external-controller: 127.0.0.1:9090
+
 proxy-groups:
   - name: 🌐ALL ⟪@LonUp_M⟫
     type: select
