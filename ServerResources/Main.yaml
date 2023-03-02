@@ -12,7 +12,7 @@ proxy-groups:
     proxies:
       - ⚓Direct
       - ⛔BLOCK
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - pro1
   - name: ⚓Direct
     type: select
     proxies:
@@ -26,4 +26,4 @@ proxy-providers:
     type: http
     url: "https://free.jingfu.cf/clash/proxies"
     interval: 3600
-    path: ./pro1
+    path: ./proxies
