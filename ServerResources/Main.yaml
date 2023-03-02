@@ -29,60 +29,28 @@ proxy-providers:
     url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_yaml.yml
     interval: 43200
     path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
-
   LonUpPro02:
     type: http
     url: https://proxypool.laowang.me/clash/proxies
     interval: 43200
-    path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
-
+    path: ./LonUpPro02.yaml
   LonUpPro03:
     type: http
     url: http://proxies.haisto.cn/clash/proxies
     interval: 43200
-    path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
+    path: ./LonUpPro03.yaml
   LonUpPro04:
     type: http
     url: https://free.iam7.tk/clash/proxies
     interval: 43200
-    path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
+    path: ./LonUpPro04.yaml
   LonUpPro05:
     type: http
     url: https://proxy.yiun.xyz/clash/proxies
     interval: 43200
-    path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
+    path: ./LonUpPro05.yaml
   LonUpPro06:
     type: http
     url: http://0.0.0.0:33100/clash/proxies
     interval: 43200
-    path: ./LonUpPro01.yaml
-    health-check:
-      enable: true
-      interval: 600
-      lazy: true
-      url: http://cp.cloudflare.com/
+    path: ./LonUpPro06.yaml
