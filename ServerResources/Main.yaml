@@ -10,10 +10,14 @@ proxy-groups:
   - name: 🌐ALL ⟪@LonUp_M⟫
     type: select
     proxies:
-      - pro1
+      - subscribe
 proxy-providers:
-  pro1:
+  subscribe:
     type: http
-    url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
+    url: "https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/IRANCELL"
     interval: 3600
-    path: ./pro1.yaml
+    path: ./profiles/proxies/subscribe.yaml
+    health-check:
+      enable: false
+      interval: 600
+      url: http://www.gstatic.com/generate_204
