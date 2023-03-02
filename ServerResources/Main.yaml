@@ -10,14 +10,79 @@ proxy-groups:
   - name: 🌐ALL ⟪@LonUp_M⟫
     type: select
     proxies:
-      - subscribe
+      - join us ;) t.me/LonUp_M
+  - name: join us ;) t.me/LonUp_M
+    type: relay
+    url: http://cp.cloudflare.com/
+    interval: 600
+    lazy: true
+    use:
+    - LonUpPro01
+    - LonUpPro02
+    - LonUpPro03
+    - LonUpPro04
+    - LonUpPro05
+    - LonUpPro06
 proxy-providers:
-  subscribe:
+  LonUpPro01:
     type: http
-    url: "https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/IRANCELL"
-    interval: 3600
-    path: ./profiles/proxies/subscribe.yaml
+    url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_yaml.yml
+    interval: 43200
+    path: ./LonUpPro01.yaml
     health-check:
-      enable: false
+      enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+  LonUpPro02:
+    type: http
+    url: https://proxypool.laowang.me/clash/proxies
+    interval: 43200
+    path: ./LonUpPro01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+  LonUpPro03:
+    type: http
+    url: http://proxies.haisto.cn/clash/proxies
+    interval: 43200
+    path: ./LonUpPro01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+  LonUpPro04:
+    type: http
+    url: https://free.iam7.tk/clash/proxies
+    interval: 43200
+    path: ./LonUpPro01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+  LonUpPro05:
+    type: http
+    url: https://proxy.yiun.xyz/clash/proxies
+    interval: 43200
+    path: ./LonUpPro01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+  LonUpPro06:
+    type: http
+    url: http://0.0.0.0:33100/clash/proxies
+    interval: 43200
+    path: ./LonUpPro01.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
