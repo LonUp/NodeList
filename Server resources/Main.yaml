@@ -1,0 +1,29 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+allow-lan: true
+mode: rule
+log-level: error 
+external-controller: 127.0.0.1:9090
+proxy-groups:
+  - name: 🌐ALL ⟪@LonUp_M⟫
+    type: select
+    proxies:
+      - ⚓Direct
+      - ⛔BLOCK
+      - Ꮮᝪᑎᑌᑭ 𖡺
+  - name: ⚓Direct
+    type: select
+    proxies:
+      - DIRECT
+  - name: ⛔BLOCK
+    type: select
+    proxies:
+      - REJECT
+proxy-providers:
+  pro1:
+    type: http
+    url: "https://free.jingfu.cf/clash/proxies"
+    interval: 3600
+    path: ./pro1
