@@ -22,7 +22,6 @@ proxy-groups:
     - LonUpPro03
     - LonUpPro04
     - LonUpPro05
-    - LonUpPro06
 proxy-providers:
   LonUpPro01:
     type: http
@@ -49,8 +48,3 @@ proxy-providers:
     url: https://proxy.yiun.xyz/clash/proxies
     interval: 43200
     path: ./LonUpPro05.yaml
-  LonUpPro06:
-    type: http
-    url: http://0.0.0.0:33100/clash/proxies
-    interval: 43200
-    path: ./LonUpPro06.yaml
