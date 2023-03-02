@@ -24,6 +24,6 @@ proxy-groups:
 proxy-providers:
   pro1:
     type: http
-    url: "https://free.jingfu.cf/clash/proxies"
+    url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
     interval: 3600
-    path: ./proxies
+    path: ./clash.config.yaml
