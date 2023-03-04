@@ -240,11 +240,11 @@ iran:
     path: ./ruleset/iran.yaml
     interval: 900000
   
-  reject:
+  AntiAd:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
-    path: ./ruleset/reject.yaml
+    path: ./ruleset/AntiAd.yaml
     interval: 900000
 
 rules:
@@ -252,7 +252,7 @@ rules:
   - DOMAIN-SUFFIX,ir,DIRECT
   - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4,
   - RULE-SET,iran,DIRECT
-  - RULE-SET,reject,REJECT
+  - RULE-SET,AntiAd,REJECT
   - GEOIP,LAN,DIRECT
   - DOMAIN-KEYWORD,admarvel,REJECT
   - DOMAIN-KEYWORD,admaster,REJECT
