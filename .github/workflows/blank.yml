@@ -232,49 +232,17 @@ proxy-groups:
       - REJECT
 
 rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./ruleset/reject.yaml
-    interval: 900000
-
-  google:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-    path: ./ruleset/google.yaml
-    interval: 900000
-
-  private:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-    path: ./ruleset/private.yaml
-    interval: 900000
-
   iran:
     type: http
     behavior: classical
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
     path: ./ruleset/iran.yaml
     interval: 900000
-
-  AdBlock:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/LonUp/NodeList/main/NoTracking_Rules_Provider.txt"
-    path: ./ruleset/NoTracking_Rules_Provider.txt
-    interval: 900000
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
   - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4,
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,google,DIRECT
   - RULE-SET,iran,DIRECT
-  - RULE-SET,AdBlock,REJECT
   - GEOIP,LAN,DIRECT
   - DOMAIN-KEYWORD,admarvel,REJECT
   - DOMAIN-KEYWORD,admaster,REJECT
