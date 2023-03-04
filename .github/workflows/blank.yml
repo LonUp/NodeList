@@ -233,7 +233,7 @@ proxy-groups:
 
 rule-providers:
 
-iran:
+  iran:
     type: http
     behavior: classical
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
@@ -352,3 +352,47 @@ rules:
   - DOMAIN-KEYWORD,wlmonitor,REJECT
   - DOMAIN-KEYWORD,whalecloud,REJECT
   - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  - DOMAIN-SUFFIX,adtago.s3.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,analytics.s3.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,advertising-api-eu.amazon.com,REJECT
+  - DOMAIN-SUFFIX,static.media.net,REJECT
+  - DOMAIN-SUFFIX,adservetx.media.net,REJECT
+  - DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,ads30.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,events3alt.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,wd.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,events3alt.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,click.googleanalytics.com,REJECT
+  - DOMAIN-SUFFIX,api.mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,cdn-test.mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,api.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,cdn.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,cs.luckyorange.net,REJECT
+  - DOMAIN-SUFFIX,adm.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,identify.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,api.bugsnag.com,REJECT
+  - DOMAIN-SUFFIX,app.bugsnag.com,REJECT
+  - DOMAIN-SUFFIX,browser.sentry-cdn.com,REJECT
+  - DOMAIN-SUFFIX,ads-api.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,analytics-sg.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,business-api.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,analytics.twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads.twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,analytics.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,analytics.query.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,auction.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,appmetrica.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,adfox.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,bdapi-ads.realmemobile.com,REJECT
+  - DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
+  - DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com,REJECT
