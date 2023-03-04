@@ -230,23 +230,19 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
-
 rule-providers:
-
   iran:
     type: http
     behavior: classical
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
     path: ./ruleset/iran.yaml
-    interval: 900000
-  
+    interval: 70000
   AntiAd:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
     path: ./ruleset/AntiAd.yaml
-    interval: 900000
-
+    interval: 70000
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
@@ -357,42 +353,130 @@ rules:
   - DOMAIN-SUFFIX,analytics.s3.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,advertising-api-eu.amazon.com,REJECT
-  - DOMAIN-SUFFIX,static.media.net,REJECT
-  - DOMAIN-SUFFIX,adservetx.media.net,REJECT
   - DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
   - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,pagead2.googleadservices.com,REJECT
   - DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,stats.g.doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,ad.doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,static.doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,m.doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,mediavisor.doubleclick.net,REJECT
   - DOMAIN-SUFFIX,ads30.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,adc3-launch.adcolony.com,REJECT
   - DOMAIN-SUFFIX,events3alt.adcolony.com,REJECT
   - DOMAIN-SUFFIX,wd.adcolony.com,REJECT
   - DOMAIN-SUFFIX,events3alt.adcolony.com,REJECT
+  - DOMAIN-SUFFIX,static.media.net,REJECT
+  - DOMAIN-SUFFIX,media.net,REJECT
+  - DOMAIN-SUFFIX,adservetx.media.net,REJECT
+  - DOMAIN-SUFFIX,app-measurement.com,REJECT
+  - DOMAIN-SUFFIX,analytics.google.com,REJECT
   - DOMAIN-SUFFIX,click.googleanalytics.com,REJECT
-  - DOMAIN-SUFFIX,api.mouseflow.com,REJECT
-  - DOMAIN-SUFFIX,cdn-test.mouseflow.com,REJECT
-  - DOMAIN-SUFFIX,api.luckyorange.com,REJECT
-  - DOMAIN-SUFFIX,cdn.luckyorange.com,REJECT
-  - DOMAIN-SUFFIX,cs.luckyorange.net,REJECT
+  - DOMAIN-SUFFIX,google-analytics.com,REJECT
+  - DOMAIN-SUFFIX,ssl.google-analytics.com,REJECT
   - DOMAIN-SUFFIX,adm.hotjar.com,REJECT
   - DOMAIN-SUFFIX,identify.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,insights.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,script.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,surveys.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,careers.hotjar.com,REJECT
+  - DOMAIN-SUFFIX,events.hotjar.io,REJECT
+  - DOMAIN-SUFFIX,mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,api.mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,tools.mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,cdn-test.mouseflow.com,REJECT
+  - DOMAIN-SUFFIX,freshmarketer.com,REJECT
+  - DOMAIN-SUFFIX,claritybt.freshmarketer.com,REJECT
+  - DOMAIN-SUFFIX,fwtracks.freshmarketer.com,REJECT
+  - DOMAIN-SUFFIX,luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,api.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,realtime.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,cdn.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,w1.luckyorange.com,REJECT
+  - DOMAIN-SUFFIX,upload.luckyorange.net,REJECT
+  - DOMAIN-SUFFIX,cs.luckyorange.net,REJECT
+  - DOMAIN-SUFFIX,settings.luckyorange.net,REJECT
+  - DOMAIN-SUFFIX,stats.wp.com,REJECT
+  - DOMAIN-SUFFIX,notify.bugsnag.com,REJECT
+  - DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT
   - DOMAIN-SUFFIX,api.bugsnag.com,REJECT
   - DOMAIN-SUFFIX,app.bugsnag.com,REJECT
   - DOMAIN-SUFFIX,browser.sentry-cdn.com,REJECT
+  - DOMAIN-SUFFIX,app.getsentry.com,REJECT
+  - DOMAIN-SUFFIX,pixel.facebook.com,REJECT
+  - DOMAIN-SUFFIX,an.facebook.com,REJECT
+  - DOMAIN-SUFFIX,analytics.twitter.com,REJECT
+  - DOMAIN-SUFFIX,static.ads-twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads.twitter.com,REJECT
+  - DOMAIN-SUFFIX,ads.linkedin.com,REJECT
+  - DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com,REJECT
+  - DOMAIN-SUFFIX,ads.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,log.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,analytics.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,trk.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,widgets.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,events.reddit.com,REJECT
+  - DOMAIN-SUFFIX,events.redditmedia.com,REJECT
+  - DOMAIN-SUFFIX,ads.youtube.com,REJECT
   - DOMAIN-SUFFIX,ads-api.tiktok.com,REJECT
   - DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,ads-sg.tiktok.com,REJECT
   - DOMAIN-SUFFIX,analytics-sg.tiktok.com,REJECT
   - DOMAIN-SUFFIX,analytics.tiktok.com,REJECT
   - DOMAIN-SUFFIX,business-api.tiktok.com,REJECT
-  - DOMAIN-SUFFIX,analytics.twitter.com,REJECT
-  - DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
-  - DOMAIN-SUFFIX,ads.twitter.com,REJECT
-  - DOMAIN-SUFFIX,ads.pinterest.com,REJECT
-  - DOMAIN-SUFFIX,analytics.pinterest.com,REJECT
+  - DOMAIN-SUFFIX,ads.tiktok.com,REJECT
+  - DOMAIN-SUFFIX,ads.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,analytics.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,geo.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,udc.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
   - DOMAIN-SUFFIX,analytics.query.yahoo.com,REJECT
-  - DOMAIN-SUFFIX,auction.unityads.unity3d.com,REJECT
-  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,partnerads.ysm.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,log.fc.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,adtech.yahooinc.com,REJECT
+  - DOMAIN-SUFFIX,extmaps-api.yandex.net,REJECT
   - DOMAIN-SUFFIX,appmetrica.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,adfstat.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,metrika.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,advertising.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,offerwall.yandex.net,REJECT
   - DOMAIN-SUFFIX,adfox.yandex.ru,REJECT
+  - DOMAIN-SUFFIX,auction.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,webview.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,config.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com,REJECT
+  - DOMAIN-SUFFIX,iot-eu-logser.realme.com,REJECT
+  - DOMAIN-SUFFIX,iot-logser.realme.com,REJECT
   - DOMAIN-SUFFIX,bdapi-ads.realmemobile.com,REJECT
   - DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
-  - DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
   - DOMAIN-SUFFIX,api.ad.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,data.mistat.india.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,globalapi.ad.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,tracking.rus.miui.com,REJECT
+  - DOMAIN-SUFFIX,adsfs.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,ck.ads.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,data.ads.oppomobile.com,REJECT
+  - DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,metrics2.data.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,grs.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,logservice.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,logservice1.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,logbak.hicloud.com,REJECT
+  - DOMAIN-SUFFIX,click.oneplus.cn,REJECT
+  - DOMAIN-SUFFIX,open.oneplus.net,REJECT
+  - DOMAIN-SUFFIX,samsungads.com,REJECT
+  - DOMAIN-SUFFIX,smetrics.samsung.com,REJECT
+  - DOMAIN-SUFFIX,samsung-com.112.2o7.net,REJECT
+  - DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com,REJECT
+  - DOMAIN-SUFFIX,advertising.apple.com,REJECT
+  - DOMAIN-SUFFIX,tr.iadsdk.apple.com,REJECT
+  - DOMAIN-SUFFIX,metrics.icloud.com,REJECT
