@@ -232,17 +232,27 @@ proxy-groups:
       - REJECT
 
 rule-providers:
-  iran:
+
+iran:
     type: http
     behavior: classical
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
     path: ./ruleset/iran.yaml
     interval: 900000
+  
+  reject:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    path: ./ruleset/reject.yaml
+    interval: 900000
+
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
   - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4,
   - RULE-SET,iran,DIRECT
+  - RULE-SET,reject,REJECT
   - GEOIP,LAN,DIRECT
   - DOMAIN-KEYWORD,admarvel,REJECT
   - DOMAIN-KEYWORD,admaster,REJECT
