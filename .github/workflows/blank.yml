@@ -16,7 +16,15 @@ dns:
   enable: true
   ipv6: true
   enhanced-mode: fake-ip
+  default-nameserver: 
+    - 223.5.5.5
+    - 1.1.1.1
+    - 1.0.0.1
   nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 8.8.4.4
+    - 1.0.0.1
     - https://basic.rethinkdns.com/dns-query
     - https://NoTMIKE.dev/dns.php
     - tls://one.one.one.one:853
@@ -63,6 +71,13 @@ dns:
     - https://doh.dns.sb/dns-query
     - https://dns.cloudflare.com/dns-query
     - https://dns.twnic.tw/dns-query
+    - 119.29.29.29
+    - 223.5.5.5
+    - https://dns.rubyfish.cn/dns-query
+    - tls://8.8.4.4'
+    - tls://1.0.0.1:853
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
 fallback-filter:
     geoip: true
     geoip-code: IR
@@ -114,17 +129,13 @@ fake-ip-filter:
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
 proxies:
-  - {"name":"Ꮮᝪᑎᑌᑭ 𖡺","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - *
 proxy-groups:
   - name: 🌐ALL ⟪@LonUp_M⟫
     type: select
     proxies:
       - ⚓Direct
       - ⛔BLOCK
-      - Ꮮᝪᑎᑌᑭ 𖡺
-  - name: 👑TestGroups
-    type: select
-    proxies:
       - ⚡test⊶1
       - ⚡test⊶2
       - ⚡test⊶3
@@ -138,90 +149,91 @@ proxy-groups:
       - 🧠load-balance⇋3
       - 🧠load-balance⇋4
       - 💦relay
+      - *
   - name: 💦relay
     type: relay
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: ⚡test⊶1
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 800
     tolerance: 300
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: ⚡test⊶2
     type: url-test
     url: 'http://cp.cloudflare.com/'
     interval: 800
     tolerance: 300
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: ⚡test⊶3
     type: url-test
     url: 'http://captive.apple.com'
     interval: 800
     tolerance: 300
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: ⚡test⊶4
     type: url-test
     url: 'http://detectportal.firefox.com/success.txt'
     interval: 800
     tolerance: 300
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🔹fallback◈1
     type: fallback
     url: 'http://www.google-analytics.com/generate_204'
     interval: 700
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🔹fallback◈2
     type: fallback
     url: 'http://cp.cloudflare.com/generate_204'
     interval: 700
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🔹fallback◈3
     type: fallback
-    url: 'http://www.apple.com/library/test/success.html'
+    url: 'http://www.qualcomm.cn/generate_204'
     interval: 700
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🔹fallback◈4
     type: fallback
     url: 'http://connect.rom.miui.com/generate_204'
     interval: 700
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🧠load-balance⇋1
     type: load-balance
     url: 'http://www.google.com/generate_204'
     interval: 666
     strategy: round-robin
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🧠load-balance⇋2
     type: load-balance
     url: 'https://raw.githubusercontent.com/LonUp/NodeList/main/URL_TEST.yaml'
     interval: 666
     strategy: consistent-hashing
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🧠load-balance⇋3
     type: load-balance
     url: 'http://www.msftconnecttest.com/connecttest.txt'
     interval: 666
     strategy: round-robin
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: 🧠load-balance⇋4
     type: load-balance
-    url: 'http://www.qualcomm.cn/generate_204'
+    url: 'http://www.apple.com/library/test/success.html'
     interval: 666
     strategy: consistent-hashing
     proxies:
-      - Ꮮᝪᑎᑌᑭ 𖡺
+      - *
   - name: ⚓Direct
     type: select
     proxies:
@@ -246,10 +258,73 @@ rule-providers:
 rules:
   - GEOIP,IR,⚓Direct
   - DOMAIN-SUFFIX,ir,⚓Direct
-  - MATCH ,⚡test⊶1, ⚡test⊶2, ⚡test⊶3, ⚡test⊶4, 🧠load-balance⇋1, 🧠load-balance⇋2, 🧠load-balance⇋3, 🧠load-balance⇋4, 🔹fallback◈1, 🔹fallback◈2, 🔹fallback◈3, 🔹fallback◈4
+  - MATCH ,🌐ALL ⟪@LonUp_M⟫
   - RULE-SET,iran,⚓Direct
   - RULE-SET,AntiAd,⛔BLOCK
   - GEOIP,LAN,⚓Direct
+  - DOMAIN-SUFFIX,acl4.ssr,⚓Direct
+  - DOMAIN-SUFFIX,ip6-localhost,⚓Direct
+  - DOMAIN-SUFFIX,ip6-loopback,⚓Direct
+  - DOMAIN-SUFFIX,lan,⚓Direct
+  - DOMAIN-SUFFIX,local,⚓Direct
+  - DOMAIN-SUFFIX,localhost,⚓Direct
+  - IP-CIDR,10.0.0.0/8,⚓Direct,no-resolve
+  - IP-CIDR,100.64.0.0/10,⚓Direct,no-resolve
+  - IP-CIDR,127.0.0.0/8,⚓Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,⚓Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,⚓Direct,no-resolve
+  - IP-CIDR,198.18.0.0/16,⚓Direct,no-resolve
+  - IP-CIDR,224.0.0.0/4,⚓Direct,no-resolve
+  - IP-CIDR6,::1/128,⚓Direct,no-resolve
+  - IP-CIDR6,fc00::/7,⚓Direct,no-resolve
+  - IP-CIDR6,fe80::/10,⚓Direct,no-resolve
+  - IP-CIDR6,fd00::/8,⚓Direct,no-resolve
+  - DOMAIN-KEYWORD,1e100,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,abema,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,appledaily,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,avtb,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,beetalk,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,blogspot,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,dropbox,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,facebook,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,fbcdn,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,google,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,instagram,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,porn,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,sci-hub,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,spotify,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,telegram,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,twitter,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,whatsapp,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,youtube,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,instagram,🌐ALL ⟪@LonUp_M⟫
+  - DOMAIN-KEYWORD,admarvel,⛔BLOCK
+  - DOMAIN-KEYWORD,admaster,⛔BLOCK
+  - DOMAIN-KEYWORD,adsage,⛔BLOCK
+  - DOMAIN-KEYWORD,adsensor,⛔BLOCK
+  - DOMAIN-KEYWORD,adservice,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmogo,⛔BLOCK
+  - DOMAIN-KEYWORD,adsrvmedia,⛔BLOCK
+  - DOMAIN-KEYWORD,adsserving,⛔BLOCK
+  - DOMAIN-KEYWORD,adsystem,⛔BLOCK
+  - DOMAIN-KEYWORD,adwords,⛔BLOCK
+  - DOMAIN-KEYWORD,analysis,⛔BLOCK
+  - DOMAIN-KEYWORD,applovin,⛔BLOCK
+  - DOMAIN-KEYWORD,appsflyer,⛔BLOCK
+  - DOMAIN-KEYWORD,domob,⛔BLOCK
+  - DOMAIN-KEYWORD,duomeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dwtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,guanggao,⛔BLOCK
+  - DOMAIN-KEYWORD,omgmta,⛔BLOCK
+  - DOMAIN-KEYWORD,omniture,⛔BLOCK
+  - DOMAIN-KEYWORD,openx,⛔BLOCK
+  - DOMAIN-KEYWORD,partnerad,⛔BLOCK
+  - DOMAIN-KEYWORD,pingfore,⛔BLOCK
+  - DOMAIN-KEYWORD,socdm,⛔BLOCK
+  - DOMAIN-KEYWORD,supersonicads,⛔BLOCK
+  - DOMAIN-KEYWORD,usage,⛔BLOCK
+  - DOMAIN-KEYWORD,wlmonitor,⛔BLOCK
+  - DOMAIN-KEYWORD,zjtoolbar,⛔BLOCK
   - DOMAIN-KEYWORD,admarvel,⛔BLOCK
   - DOMAIN-KEYWORD,admaster,⛔BLOCK
   - DOMAIN-KEYWORD,adsage,⛔BLOCK
