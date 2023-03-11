@@ -1,0 +1,16 @@
+http://www.google.com/generate_204
+http://connectivitycheck.gstatic.com/generate_204
+http://www.google.com/gen_204
+http://www.gstatic.com/generate_204
+http://connect.rom.miui.com/generate_204
+HTTP : http://connectivity.gstatic.com/generate_204
+HTTPS : https://www.google.com/generate_204
+Fallback : http://www.google.com/generate_204
+Other fallback : http://play.googleapis.com/generate_204
+http://cp.cloudflare.com/
+http://captive.apple.com
+http://detectportal.firefox.com/success.txt
+http://cp.cloudflare.com/generate_204
+http://www.qualcomm.cn/generate_204
+http://www.msftconnecttest.com/connecttest.txt
+http://www.apple.com/library/test/success.html
