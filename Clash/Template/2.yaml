@@ -1,0 +1,587 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+cfw-latency-timeout: 7000
+cfw-latency-url: http://www.google-analytics.com/generate_204
+cfw-proxies-order: latency
+global-client-fingerprint: chrome
+experimental:
+  ignore-resolve-fail: true
+ipv6: true
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 1.1.1.1
+    - 1.0.0.1
+    - 119.29.29.29
+  nameserver:
+    - 185.55.225.25
+    - 185.55.226.26
+    - 178.122.22.100
+    - 185.51.200.2
+    - 185.231.182.126
+    - 37.152.182.112
+    - 178.122.22.100
+    - 185.55.200.2
+    - 94.232.174.194
+    - 152.75.191.91
+    - 78.157.42.100
+    - 78.157.42.101            
+    - 8.20.247.20
+    - 8.26.56.26
+    - 77.88.8.8 
+    - 77.88.8.1
+    - 199.85.127.10 
+    - 199.85.126.10
+    - 195.46.39.39
+    - 195.46.39.40
+    - 208.67.220.200
+    - 208.67.222.222
+    - 65.21.242.120 
+    - 87.92.251.93
+    - 64.6.65.6
+    - 64.6.64.6
+    - 156.154.70.1
+    - 156.154.71.1
+    - 37.152.182.112
+    - 185.231.182.126
+    - 199.85.126.20 
+    - 199.85.127.20
+    - 199.85.126.30
+    - 199.85.127.30
+    - 8.8.8.8
+    - 1.1.1.1
+    - 8.8.4.4
+    - 1.0.0.1
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://basic.rethinkdns.com/dns-query
+    - https://NoTMIKE.dev/dns.php
+    - tls://one.one.one.one:853
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh-de.blahdns.com/dns-query
+    - https://dns.adguard-dns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://basic.rethinkdns.com/dns-query
+    - https://azure.cloudflare-dns.com/dns-query
+    - https://dns64.cloudflare-dns.com/dns-query
+    - https://dns1.ryan-palmer.com/dns-query
+    - https://odvr.nic.cz/dns-query
+    - https://doh.crypto.sx/dns-query
+    - https://puredns.org/dns-query
+    - https://dns.dnshome.de/dns-query
+    - https://doh.seby.io:8443/dns-query
+    - https://ibksturm.synology.me/dns-query
+    - https://dns.hostux.net/dns-query
+    - https://doh.libredns.gr/dns-query
+    - https://NoTMIKE.dev/dns.php
+    - https://doh.42l.fr/dns-query
+    - https://DNS.HeN.ee/dns-query
+    - https://doh.dnswarden.com/uncensored
+    - tls://one.one.one.one:853
+    - tls://dns.google:853
+    - https://dns.google/dns-query
+    - https://dns64.dns.google/dns-query
+    - https://8888.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://mozilla.cloudflare-dns.com/dns-query
+    - https://EU2.DNS.LAVATE.CH/dns-query
+    - https://DANDELIONSPROUT.Asuscomm.com:2501/dns-query
+    - https://dns.switch.ch/dns-query
+    - https://dnsforge.de/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh-de.blahdns.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - 119.29.29.29
+    - 223.5.5.5
+    - https://dns.rubyfish.cn/dns-query
+    - tls://8.8.4.4'
+    - tls://1.0.0.1:853
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+fallback-filter:
+    geoip: true
+    geoip-code: IR
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - +.google.com
+      - +.facebook.com
+      - +.youtube.com
+      - +.gvt1.com
+      - '+.facebook.com'
+      - '+.twitter.com'
+      - '+.youtube.com'
+      - '+.bing.com'
+fake-ip-filter:
+    - "*.lan"
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - "*.openwrt.pool.ntp.org"
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - api.joox.com
+    - joox.com
+    - "*.xiami.com"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - speedtest.cros.wr.pvp.net
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
+proxies:
+  - {"name":"Ꮮᝪᑎᑌᑭ","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+proxy-groups:
+  - name: 👑Groups
+    type: select
+    proxies:
+      - 🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+      - ⚡test⊶1
+      - ⚡test⊶2
+      - ⚡test⊶3
+      - ⚡test⊶4
+      - 🔹fallback◈1
+      - 🔹fallback◈2
+      - 🔹fallback◈3
+      - 🔹fallback◈4
+      - 🧠load-balance⇋1
+      - 🧠load-balance⇋2
+      - 🧠load-balance⇋3
+      - 🧠load-balance⇋4
+      - 💦relay
+      - ⚓Direct
+      - ⛔BLOCK
+  - name: 🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+    type: select
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 💦relay
+    type: relay
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: ⚡test⊶1
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 800
+    tolerance: 300
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: ⚡test⊶2
+    type: url-test
+    url: 'http://cp.cloudflare.com/'
+    interval: 800
+    tolerance: 300
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: ⚡test⊶3
+    type: url-test
+    url: 'http://captive.apple.com'
+    interval: 800
+    tolerance: 300
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: ⚡test⊶4
+    type: url-test
+    url: 'http://detectportal.firefox.com/success.txt'
+    interval: 800
+    tolerance: 300
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🔹fallback◈1
+    type: fallback
+    url: 'http://www.google-analytics.com/generate_204'
+    interval: 700
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🔹fallback◈2
+    type: fallback
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 700
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🔹fallback◈3
+    type: fallback
+    url: 'http://www.qualcomm.cn/generate_204'
+    interval: 700
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🔹fallback◈4
+    type: fallback
+    url: 'http://connect.rom.miui.com/generate_204'
+    interval: 700
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🧠load-balance⇋1
+    type: load-balance
+    url: 'http://www.google.com/generate_204'
+    interval: 666
+    strategy: round-robin
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🧠load-balance⇋2
+    type: load-balance
+    url: 'http://cp.cloudflare.com/'
+    interval: 666
+    strategy: consistent-hashing
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🧠load-balance⇋3
+    type: load-balance
+    url: 'http://www.msftconnecttest.com/connecttest.txt'
+    interval: 666
+    strategy: round-robin
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: 🧠load-balance⇋4
+    type: load-balance
+    url: 'http://www.apple.com/library/test/success.html'
+    interval: 666
+    strategy: consistent-hashing
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
+  - name: ⚓Direct
+    type: select
+    proxies:
+      - DIRECT
+  - name: ⛔BLOCK
+    type: select
+    proxies:
+      - REJECT
+rules:
+  - GEOIP,IR,⚓Direct
+  - DOMAIN-SUFFIX,ir,⚓Direct
+  - DOMAIN-SUFFIX,.ir,⚓Direct
+  - MATCH ,👑Groups
+  - IP-CIDR,10.10.0.0/16,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - GEOIP,LAN,⚓Direct
+  - DOMAIN-SUFFIX,acl4.ssr,⚓Direct
+  - DOMAIN-SUFFIX,ip6-localhost,⚓Direct
+  - DOMAIN-SUFFIX,ip6-loopback,⚓Direct
+  - DOMAIN-SUFFIX,lan,⚓Direct
+  - DOMAIN-SUFFIX,local,⚓Direct
+  - DOMAIN-SUFFIX,localhost,⚓Direct
+  - IP-CIDR,10.0.0.0/8,⚓Direct,no-resolve
+  - IP-CIDR,100.64.0.0/10,⚓Direct,no-resolve
+  - IP-CIDR,127.0.0.0/8,⚓Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,⚓Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,⚓Direct,no-resolve
+  - IP-CIDR,198.18.0.0/16,⚓Direct,no-resolve
+  - IP-CIDR,224.0.0.0/4,⚓Direct,no-resolve
+  - IP-CIDR6,::1/128,⚓Direct,no-resolve
+  - IP-CIDR6,fc00::/7,⚓Direct,no-resolve
+  - IP-CIDR6,fe80::/10,⚓Direct,no-resolve
+  - IP-CIDR6,fd00::/8,⚓Direct,no-resolve
+  - DOMAIN-KEYWORD,1e100,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,abema,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,appledaily,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,avtb,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,beetalk,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,blogspot,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,dropbox,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,facebook,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,fbcdn,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,google,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,instagram,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,porn,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,sci-hub,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,spotify,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,telegram,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,twitter,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,whatsapp,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,youtube,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,instagram,🌐ALL 〄 Ꮮᝪᑎᑌᑭ
+  - DOMAIN-KEYWORD,admarvel,⛔BLOCK
+  - DOMAIN-KEYWORD,admaster,⛔BLOCK
+  - DOMAIN-KEYWORD,adsage,⛔BLOCK
+  - DOMAIN-KEYWORD,adsensor,⛔BLOCK
+  - DOMAIN-KEYWORD,adservice,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmogo,⛔BLOCK
+  - DOMAIN-KEYWORD,adsrvmedia,⛔BLOCK
+  - DOMAIN-KEYWORD,adsserving,⛔BLOCK
+  - DOMAIN-KEYWORD,adsystem,⛔BLOCK
+  - DOMAIN-KEYWORD,adwords,⛔BLOCK
+  - DOMAIN-KEYWORD,analysis,⛔BLOCK
+  - DOMAIN-KEYWORD,applovin,⛔BLOCK
+  - DOMAIN-KEYWORD,appsflyer,⛔BLOCK
+  - DOMAIN-KEYWORD,domob,⛔BLOCK
+  - DOMAIN-KEYWORD,duomeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dwtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,guanggao,⛔BLOCK
+  - DOMAIN-KEYWORD,omgmta,⛔BLOCK
+  - DOMAIN-KEYWORD,omniture,⛔BLOCK
+  - DOMAIN-KEYWORD,openx,⛔BLOCK
+  - DOMAIN-KEYWORD,partnerad,⛔BLOCK
+  - DOMAIN-KEYWORD,pingfore,⛔BLOCK
+  - DOMAIN-KEYWORD,socdm,⛔BLOCK
+  - DOMAIN-KEYWORD,supersonicads,⛔BLOCK
+  - DOMAIN-KEYWORD,usage,⛔BLOCK
+  - DOMAIN-KEYWORD,wlmonitor,⛔BLOCK
+  - DOMAIN-KEYWORD,zjtoolbar,⛔BLOCK
+  - DOMAIN-KEYWORD,admarvel,⛔BLOCK
+  - DOMAIN-KEYWORD,admaster,⛔BLOCK
+  - DOMAIN-KEYWORD,adsage,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmogo,⛔BLOCK
+  - DOMAIN-KEYWORD,adsrvmedia,⛔BLOCK
+  - DOMAIN-KEYWORD,adwords,⛔BLOCK
+  - DOMAIN-KEYWORD,adservice,⛔BLOCK
+  - DOMAIN-KEYWORD,crashlytics,⛔BLOCK
+  - DOMAIN-KEYWORD,domob,⛔BLOCK
+  - DOMAIN-KEYWORD,duomeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dwtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,guanggao,⛔BLOCK
+  - DOMAIN-KEYWORD,lianmeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dnserror,⛔BLOCK
+  - DOMAIN-KEYWORD,omgmta,⛔BLOCK
+  - DOMAIN-KEYWORD,openx,⛔BLOCK
+  - DOMAIN-KEYWORD,partnerad,⛔BLOCK
+  - DOMAIN-KEYWORD,pingfore,⛔BLOCK
+  - DOMAIN-KEYWORD,supersonicads,⛔BLOCK
+  - DOMAIN-KEYWORD,uedas,⛔BLOCK
+  - DOMAIN-KEYWORD,umeng,⛔BLOCK
+  - DOMAIN-KEYWORD,usage,⛔BLOCK
+  - DOMAIN-KEYWORD,wlmonitor,⛔BLOCK
+  - DOMAIN-KEYWORD,zjtoolbar,⛔BLOCK
+  - DOMAIN-KEYWORD,51yes,⛔BLOCK
+  - DOMAIN-KEYWORD,acs86,⛔BLOCK
+  - DOMAIN-KEYWORD,adashx,⛔BLOCK
+  - DOMAIN-KEYWORD,adcome,⛔BLOCK
+  - DOMAIN-KEYWORD,adinfuse,⛔BLOCK
+  - DOMAIN-KEYWORD,admarvel,⛔BLOCK
+  - DOMAIN-KEYWORD,admaster,⛔BLOCK
+  - DOMAIN-KEYWORD,admdfs,⛔BLOCK
+  - DOMAIN-KEYWORD,admob,⛔BLOCK
+  - DOMAIN-KEYWORD,adnewnc,⛔BLOCK
+  - DOMAIN-KEYWORD,adsage,⛔BLOCK
+  - DOMAIN-KEYWORD,adsame,⛔BLOCK
+  - DOMAIN-KEYWORD,adservice,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmind,⛔BLOCK
+  - DOMAIN-KEYWORD,adsmogo,⛔BLOCK
+  - DOMAIN-KEYWORD,adsrvmedia,⛔BLOCK
+  - DOMAIN-KEYWORD,adsserving,⛔BLOCK
+  - DOMAIN-KEYWORD,advert,⛔BLOCK
+  - DOMAIN-KEYWORD,adview,⛔BLOCK
+  - DOMAIN-KEYWORD,adwhirl,⛔BLOCK
+  - DOMAIN-KEYWORD,adwords,⛔BLOCK
+  - DOMAIN-KEYWORD,allyes,⛔BLOCK
+  - DOMAIN-KEYWORD,analysis,⛔BLOCK
+  - DOMAIN-KEYWORD,-analytics,⛔BLOCK
+  - DOMAIN-KEYWORD,appads,⛔BLOCK
+  - DOMAIN-KEYWORD,appadhoc,⛔BLOCK
+  - DOMAIN-KEYWORD,applovin,⛔BLOCK
+  - DOMAIN-KEYWORD,apptimize,⛔BLOCK
+  - DOMAIN-KEYWORD,baichuan,⛔BLOCK
+  - DOMAIN-KEYWORD,cnzz,⛔BLOCK
+  - DOMAIN-KEYWORD,crashlytics,⛔BLOCK
+  - DOMAIN-KEYWORD,dnserror,⛔BLOCK
+  - DOMAIN-KEYWORD,domob,⛔BLOCK
+  - DOMAIN-KEYWORD,doubleclick,⛔BLOCK
+  - DOMAIN-KEYWORD,duomeng,⛔BLOCK
+  - DOMAIN-KEYWORD,dwtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,emarbox,⛔BLOCK
+  - DOMAIN-KEYWORD,flurry,⛔BLOCK
+  - DOMAIN-KEYWORD,guanggao,⛔BLOCK
+  - DOMAIN-KEYWORD,guomob,⛔BLOCK
+  - DOMAIN-KEYWORD,growingio,⛔BLOCK
+  - DOMAIN-KEYWORD,iad,⛔BLOCK
+  - DOMAIN-KEYWORD,intercom,⛔BLOCK
+  - DOMAIN-KEYWORD,inmobi,⛔BLOCK
+  - DOMAIN-KEYWORD,lianmeng,⛔BLOCK
+  - DOMAIN-KEYWORD,loggly,⛔BLOCK
+  - DOMAIN-KEYWORD,metrics,⛔BLOCK
+  - DOMAIN-KEYWORD,mobaders,⛔BLOCK
+  - DOMAIN-KEYWORD,mobclix,⛔BLOCK
+  - DOMAIN-KEYWORD,networkbench,⛔BLOCK
+  - DOMAIN-KEYWORD,omgmta,⛔BLOCK
+  - DOMAIN-KEYWORD,openx,⛔BLOCK
+  - DOMAIN-KEYWORD,partnerad,⛔BLOCK
+  - DOMAIN-KEYWORD,pingfore,⛔BLOCK
+  - DOMAIN-KEYWORD,safebrowsing,⛔BLOCK
+  - DOMAIN-KEYWORD,sensor,⛔BLOCK
+  - DOMAIN-KEYWORD,shence,⛔BLOCK
+  - DOMAIN-KEYWORD,shujupie,⛔BLOCK
+  - DOMAIN-KEYWORD,smartadserver,⛔BLOCK
+  - DOMAIN-KEYWORD,socdm,⛔BLOCK
+  - DOMAIN-KEYWORD,supersonicads,⛔BLOCK
+  - DOMAIN-KEYWORD,taboola,⛔BLOCK
+  - DOMAIN-KEYWORD,tanx,⛔BLOCK
+  - DOMAIN-KEYWORD,tapjoyads,⛔BLOCK
+  - DOMAIN-KEYWORD,telemetry,⛔BLOCK
+  - DOMAIN-KEYWORD,tingyun,⛔BLOCK
+  - DOMAIN-KEYWORD,uedas,⛔BLOCK
+  - DOMAIN-KEYWORD,umeng,⛔BLOCK
+  - DOMAIN-KEYWORD,umtrack,⛔BLOCK
+  - DOMAIN-KEYWORD,unidesk,⛔BLOCK
+  - DOMAIN-KEYWORD,usage,⛔BLOCK
+  - DOMAIN-KEYWORD,wlmonitor,⛔BLOCK
+  - DOMAIN-KEYWORD,whalecloud,⛔BLOCK
+  - DOMAIN-KEYWORD,zjtoolbar,⛔BLOCK
+  - DOMAIN-SUFFIX,adtago.s3.amazonaws.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.s3.amazonaws.com,⛔BLOCK
+  - DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com,⛔BLOCK
+  - DOMAIN-SUFFIX,advertising-api-eu.amazon.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead2.googlesyndication.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adservice.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pagead2.googleadservices.com,⛔BLOCK
+  - DOMAIN-SUFFIX,afs.googlesyndication.com,⛔BLOCK
+  - DOMAIN-SUFFIX,stats.g.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ad.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,static.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,m.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,mediavisor.doubleclick.net,⛔BLOCK
+  - DOMAIN-SUFFIX,ads30.adcolony.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adc3-launch.adcolony.com,⛔BLOCK
+  - DOMAIN-SUFFIX,events3alt.adcolony.com,⛔BLOCK
+  - DOMAIN-SUFFIX,wd.adcolony.com,⛔BLOCK
+  - DOMAIN-SUFFIX,events3alt.adcolony.com,⛔BLOCK
+  - DOMAIN-SUFFIX,static.media.net,⛔BLOCK
+  - DOMAIN-SUFFIX,media.net,⛔BLOCK
+  - DOMAIN-SUFFIX,adservetx.media.net,⛔BLOCK
+  - DOMAIN-SUFFIX,app-measurement.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.google.com,⛔BLOCK
+  - DOMAIN-SUFFIX,click.googleanalytics.com,⛔BLOCK
+  - DOMAIN-SUFFIX,google-analytics.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ssl.google-analytics.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adm.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,identify.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,insights.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,script.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,surveys.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,careers.hotjar.com,⛔BLOCK
+  - DOMAIN-SUFFIX,events.hotjar.io,⛔BLOCK
+  - DOMAIN-SUFFIX,mouseflow.com,⛔BLOCK
+  - DOMAIN-SUFFIX,api.mouseflow.com,⛔BLOCK
+  - DOMAIN-SUFFIX,tools.mouseflow.com,⛔BLOCK
+  - DOMAIN-SUFFIX,cdn-test.mouseflow.com,⛔BLOCK
+  - DOMAIN-SUFFIX,freshmarketer.com,⛔BLOCK
+  - DOMAIN-SUFFIX,claritybt.freshmarketer.com,⛔BLOCK
+  - DOMAIN-SUFFIX,fwtracks.freshmarketer.com,⛔BLOCK
+  - DOMAIN-SUFFIX,luckyorange.com,⛔BLOCK
+  - DOMAIN-SUFFIX,api.luckyorange.com,⛔BLOCK
+  - DOMAIN-SUFFIX,realtime.luckyorange.com,⛔BLOCK
+  - DOMAIN-SUFFIX,cdn.luckyorange.com,⛔BLOCK
+  - DOMAIN-SUFFIX,w1.luckyorange.com,⛔BLOCK
+  - DOMAIN-SUFFIX,upload.luckyorange.net,⛔BLOCK
+  - DOMAIN-SUFFIX,cs.luckyorange.net,⛔BLOCK
+  - DOMAIN-SUFFIX,settings.luckyorange.net,⛔BLOCK
+  - DOMAIN-SUFFIX,stats.wp.com,⛔BLOCK
+  - DOMAIN-SUFFIX,notify.bugsnag.com,⛔BLOCK
+  - DOMAIN-SUFFIX,sessions.bugsnag.com,⛔BLOCK
+  - DOMAIN-SUFFIX,api.bugsnag.com,⛔BLOCK
+  - DOMAIN-SUFFIX,app.bugsnag.com,⛔BLOCK
+  - DOMAIN-SUFFIX,browser.sentry-cdn.com,⛔BLOCK
+  - DOMAIN-SUFFIX,app.getsentry.com,⛔BLOCK
+  - DOMAIN-SUFFIX,pixel.facebook.com,⛔BLOCK
+  - DOMAIN-SUFFIX,an.facebook.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.twitter.com,⛔BLOCK
+  - DOMAIN-SUFFIX,static.ads-twitter.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads-api.twitter.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.twitter.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.linkedin.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.pinterest.com,⛔BLOCK
+  - DOMAIN-SUFFIX,log.pinterest.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.pinterest.com,⛔BLOCK
+  - DOMAIN-SUFFIX,trk.pinterest.com,⛔BLOCK
+  - DOMAIN-SUFFIX,widgets.pinterest.com,⛔BLOCK
+  - DOMAIN-SUFFIX,events.reddit.com,⛔BLOCK
+  - DOMAIN-SUFFIX,events.redditmedia.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.youtube.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads-api.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads-sg.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics-sg.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,business-api.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.tiktok.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ads.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,geo.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,udc.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,udcm.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,advertising.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics.query.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,partnerads.ysm.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,log.fc.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,gemini.yahoo.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adtech.yahooinc.com,⛔BLOCK
+  - DOMAIN-SUFFIX,extmaps-api.yandex.net,⛔BLOCK
+  - DOMAIN-SUFFIX,appmetrica.yandex.ru,⛔BLOCK
+  - DOMAIN-SUFFIX,adfstat.yandex.ru,⛔BLOCK
+  - DOMAIN-SUFFIX,metrika.yandex.ru,⛔BLOCK
+  - DOMAIN-SUFFIX,advertising.yandex.ru,⛔BLOCK
+  - DOMAIN-SUFFIX,offerwall.yandex.net,⛔BLOCK
+  - DOMAIN-SUFFIX,adfox.yandex.ru,⛔BLOCK
+  - DOMAIN-SUFFIX,auction.unityads.unity3d.com,⛔BLOCK
+  - DOMAIN-SUFFIX,webview.unityads.unity3d.com,⛔BLOCK
+  - DOMAIN-SUFFIX,config.unityads.unity3d.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com,⛔BLOCK
+  - DOMAIN-SUFFIX,iot-eu-logser.realme.com,⛔BLOCK
+  - DOMAIN-SUFFIX,iot-logser.realme.com,⛔BLOCK
+  - DOMAIN-SUFFIX,bdapi-ads.realmemobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,data.mistat.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,data.mistat.india.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,globalapi.ad.xiaomi.com,⛔BLOCK
+  - DOMAIN-SUFFIX,tracking.rus.miui.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adsfs.oppomobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,adx.ads.oppomobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,ck.ads.oppomobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,data.ads.oppomobile.com,⛔BLOCK
+  - DOMAIN-SUFFIX,metrics.data.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,metrics2.data.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,grs.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,logservice.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,logservice1.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,logbak.hicloud.com,⛔BLOCK
+  - DOMAIN-SUFFIX,click.oneplus.cn,⛔BLOCK
+  - DOMAIN-SUFFIX,open.oneplus.net,⛔BLOCK
+  - DOMAIN-SUFFIX,samsungads.com,⛔BLOCK
+  - DOMAIN-SUFFIX,smetrics.samsung.com,⛔BLOCK
+  - DOMAIN-SUFFIX,samsung-com.112.2o7.net,⛔BLOCK
+  - DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com,⛔BLOCK
+  - DOMAIN-SUFFIX,advertising.apple.com,⛔BLOCK
+  - DOMAIN-SUFFIX,tr.iadsdk.apple.com,⛔BLOCK
+  - DOMAIN-SUFFIX,metrics.icloud.com,⛔BLOCK
