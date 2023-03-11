@@ -1,0 +1,18 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+allow-lan: true
+mode: global
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {"name":"Ꮮᝪᑎᑌᑭ","type":"ss","server":"134.195.196.143","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+proxy-groups:
+  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
+    type: url-test
+    url: 'http://cp.cloudflare.com/'
+    interval: 666
+    tolerance: 888
+    proxies:
+      - Ꮮᝪᑎᑌᑭ
