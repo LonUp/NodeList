@@ -1,0 +1,116 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Global 
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡1","server":"91.232.105.253","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡2","server":"172.99.188.71","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡3","server":"172.99.190.87","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡4","server":"172.99.190.87","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡5","server":"172.99.188.99","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡6","server":"172.99.188.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡7","server":"172.99.188.99","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡8","server":"ak1502.free.www.outline.network","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡9","server":"149.202.82.172","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡10","server":"172.99.188.99","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡11","server":"193.176.86.190","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇩🇰♡DK♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡12","server":"185.104.184.78","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡13","server":"193.176.86.190","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡14","server":"193.176.86.190","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡15","server":"178.18.244.2","port":443,"cipher":"chacha20-ietf-poly1305","password":"97OnDEZYGja4"}
+  - {"type":"ss","name":"🇩🇰♡DK♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡16","server":"185.104.184.78","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡17","server":"149.202.82.172","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡18","server":"ak1400.free.www.outline.network","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡19","server":"193.176.86.190","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡20","server":"193.176.86.190","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡21","server":"51.89.22.228","port":443,"password":"dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13","udp":true,"skip-cert-verify":true,"sni":"t1.teslacdn1.live","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡22","server":"18-222-63-50.ipv4.rush.ml","port":8443,"password":"cf4295378e209e70d12c5bdd017144dfd1c772d3","udp":true,"skip-cert-verify":true,"sni":"18-222-63-50.ipv4.rush.ml","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡23","server":"18-222-63-50.ipv4.rush.ml","port":8443,"password":"cf4295378e209e70d12c5bdd017144dfd1c772d3","udp":true,"skip-cert-verify":true,"sni":"18-222-63-50.ipv4.rush.ml","network":"tcp"}
+  - {"type":"trojan","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡24","server":"51.89.22.228","port":443,"password":"dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13","udp":true,"skip-cert-verify":true,"sni":"t1.teslacdn1.live","network":"tcp"}
+  - {"type":"trojan","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡25","server":"178-79-148-153.ipv4.rush.ml","port":8443,"password":"cf4295378e209e70d12c5bdd017144dfd1c772d3","udp":true,"skip-cert-verify":true,"sni":"178-79-148-153.ipv4.rush.ml","network":"tcp"}
+  - {"type":"trojan","name":"🇸🇬♡SG♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡26","server":"sg-ovh.tjvpn.org","port":443,"password":"483a57c0-8545-11ed-b034-225401db9d57","udp":true,"skip-cert-verify":true,"sni":"sg-ovh.tjvpn.org","network":"tcp"}
+  - {"type":"trojan","name":"🇰🇷♡KR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡27","server":"kr05.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡28","server":"us2.trojanvh.xyz","port":80,"password":"011eb011-c68e-4f92-80eb-f9bbef707bef","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡29","server":"us2.trojanvh.xyz","port":80,"password":"011eb011-c68e-4f92-80eb-f9bbef707bef","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡30","server":"uk1.trojanvh.xyz","port":80,"password":"b640d791-ff83-4300-b509-c2a02f97f167","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡31","server":"upload.soft98.download","port":443,"password":"a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡32","server":"aleph-tj015.thatfreeservicewhicheveryoneuse.uk","port":443,"password":"d76294c5-a31f-408d-ba0b-89880107cab5","udp":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"type":"trojan","name":"🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡33","server":"t2.teslacdn1.live","port":443,"password":"4331812b-92ff-47b5-9f32-78b5150e625f","udp":true,"skip-cert-verify":true,"sni":"t2.teslacdn1.live","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡34","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"141.193.213.20","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇲♡AM♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡35","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"185.162.228.229","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡36","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"162.159.128.7","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡37","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"news.microsoft.com","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡38","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"141.101.114.32","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡39","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡40","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇧🇿♡BZ♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡41","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.189.190","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡42","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.asuka.buzz"}},"server":"cf.515188.xyz","port":"8080","uuid":"695f885f-144b-4a6b-998a-885d9775d756","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡43","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡44","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"news.microsoft.com","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡45","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"news.microsoft.com","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡46","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"162.159.128.7","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇲♡AM♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡47","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"185.162.228.229","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡48","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"162.159.128.7","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡50","ws-opts":{"path":"/8cda48b3","headers":{"host":"us-171-78.shoptunnel.live"}},"server":"103.21.244.17","port":"8443","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡51","ws-opts":{"path":"/"},"server":"18.133.149.100","port":"40899","uuid":"8026e383-7b25-4976-8221-bc2064c9ed3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡52","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"141.193.213.20","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡53","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"162.159.128.7","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+proxy-groups:
+  - name: Ꮮᝪᑎᑌᑭ𖡺لوناپ
+    type: select
+    proxies:
+      - DIRECT
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡1
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡2
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡3
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡4
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡5
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡6
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡7
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡8
+      - 🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡9
+      - 🇳🇱♡NL♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡10
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡11
+      - 🇩🇰♡DK♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡12
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡13
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡14
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡15
+      - 🇩🇰♡DK♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡16
+      - 🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡17
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡18
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡19
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡20
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡21
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡22
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡23
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡24
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡25
+      - 🇸🇬♡SG♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡26
+      - 🇰🇷♡KR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡27
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡28
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡29
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡30
+      - 🇫🇷♡FR♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡31
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡32
+      - 🇩🇪♡DE♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡33
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡34
+      - 🇦🇲♡AM♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡35
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡36
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡37
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡38
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡39
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡40
+      - 🇧🇿♡BZ♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡41
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡42
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡43
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡44
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡45
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡46
+      - 🇦🇲♡AM♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡47
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡48
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡50
+      - 🇬🇧♡GB♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡51
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡52
+      - 🇺🇸♡US♡Ꮮᝪᑎᑌᑭ𖡺لوناپ♡53
