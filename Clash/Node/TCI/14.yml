@@ -1,0 +1,47 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶188","server":"185.104.184.78","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶360","server":"38.121.43.71","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶179","server":"190.120.229.28","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶348","server":"38.91.107.66","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶195","server":"130.0.234.1","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶310","server":"38.68.134.191","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶349","server":"38.68.134.9","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶357","server":"38.68.134.191","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶311","server":"38.121.43.71","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶353","server":"38.121.43.71","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶319","server":"38.121.43.71","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶335","server":"38.68.134.9","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶328","server":"38.91.102.30","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶325","server":"38.91.102.30","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶344","server":"38.68.134.9","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶366","server":"148.66.56.99","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+proxy-groups:
+  - name: all
+    type: select
+    proxies:
+      - DIRECT
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶188
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶360
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶179
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶348
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶195
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶310
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶349
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶357
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶311
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶353
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶319
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶335
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶328
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶325
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶344
+      - Ꮮᝪᑎᑌᑭ𖡺لوناپ⊶366
