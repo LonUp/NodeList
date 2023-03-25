@@ -1834,7 +1834,6 @@ proxy-groups:
       - ⟪t.me/LonUp_M⟫◆967
       - ⟪t.me/LonUp_M⟫◆968
 rules:
-  - IP-CIDR,10.10.0.0/16,PROXY
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
   - MATCH ,⚡test 〄 Ꮮᝪᑎᑌᑭ
