@@ -24,7 +24,7 @@ dns:
     - https://1.1.1.1/dns-query#PROXY
     - https://8.8.8.8/dns-query#PROXY
     - https://1.0.0.1/dns-query#PROXY
-	- https://basic.rethinkdns.com/dns-query
+    - https://basic.rethinkdns.com/dns-query
 proxies:
   - {"name":"⟪t.me/LonUp_M⟫◆1","type":"trojan","server":"hgc.iamnotagoodman.com","port":443,"udp":true,"password":"2ac7fc8a-68b5-4809-8bd2-73a593bae292","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟪t.me/LonUp_M⟫◆2","type":"trojan","server":"sg.iamnotagoodman.com","port":443,"udp":true,"password":"4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52","skip-cert-verify":true,"network":"tcp"}
