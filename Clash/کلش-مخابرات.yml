@@ -24,7 +24,7 @@ dns:
     - https://1.1.1.1/dns-query#PROXY
     - https://8.8.8.8/dns-query#PROXY
     - https://1.0.0.1/dns-query#PROXY
-	- https://basic.rethinkdns.com/dns-query
+    - https://basic.rethinkdns.com/dns-query
 proxies:
   - {"name":"⟪t.me/LonUp_M⟫⌗1","type":"ss","server":"179.27.200.28","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"⟪t.me/LonUp_M⟫⌗2","type":"trojan","server":"usa-server-02.selfupay.com","port":443,"udp":true,"password":"-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","skip-cert-verify":true,"network":"tcp"}
