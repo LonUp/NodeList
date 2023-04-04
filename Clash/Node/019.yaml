@@ -1,0 +1,99 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+allow-lan: true
+log-level: info
+secret: 
+external-controller: 127.0.0.1:9090
+ipv6: false
+mode: rule
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  use-hosts: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:6868
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
+  nameserver:
+    - https://1.1.1.1/dns-query#PROXY
+    - https://8.8.8.8/dns-query#PROXY
+    - https://1.0.0.1/dns-query#PROXY
+    - https://basic.rethinkdns.com/dns-query
+proxies:
+  - {"name":"🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ1","type":"vmess","server":"v2ray.serverpanis.org","port":20003,"cipher":"auto","uuid":"718e1c28-2d41-42c9-9143-19fa8f5c9ef4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v2ray.serverpanis.org"}}}
+  - {"name":"🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ2","type":"trojan","server":"phxv002.jd0001.top","port":44303,"udp":true,"password":"6bb546f2-5528-31b2-8d8e-cf1eed4076a0","sni":"phxv002.jd0001.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ3","type":"vmess","server":"8.218.181.75","port":57408,"cipher":"auto","uuid":"a93df277-c3a8-4948-abd1-663722cb32b0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇦ʘUAʘ⟪@LonUp_M⟫ʘ4","type":"vmess","server":"doinb.ml","port":443,"cipher":"auto","uuid":"c2f89bc3-e151-411c-a2ea-7f3ef63a5408","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ikidvws","headers":{"host":"jp.lzgsm.tk"}}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ5","type":"vmess","server":"petal.ga","port":443,"cipher":"auto","uuid":"b744f5cc-eab2-d2cd-f477-76646d17987f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/petalvws"}}
+  - {"name":"🇰🇷ʘKRʘ⟪@LonUp_M⟫ʘ6","type":"vmess","server":"m4.40010010.xyz","port":37121,"cipher":"auto","uuid":"575e4d92-1056-44c2-8cac-75ef1c859ad5","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵ʘJPʘ⟪@LonUp_M⟫ʘ7","type":"vmess","server":"vjp2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat"}}
+  - {"name":"🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ8","type":"vmess","server":"46.245.65.98","port":20003,"cipher":"auto","uuid":"718e1c28-2d41-42c9-9143-19fa8f5c9ef4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵ʘJPʘ⟪@LonUp_M⟫ʘ9","type":"vmess","server":"v6.heduian.online","port":30866,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oooo","headers":{"host":"v6.heduian.online"}}}
+  - {"name":"🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ10","type":"vmess","server":"20.205.214.65","port":18730,"cipher":"auto","uuid":"b8ec1401-e5c1-4299-b315-9694cca0c2f8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ11","type":"vmess","server":"8.218.182.129","port":27191,"cipher":"auto","uuid":"a7be7873-3f6f-4aec-a24d-dba051e3283a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ12","type":"vmess","server":"8.218.180.44","port":30840,"cipher":"auto","uuid":"99ac8983-3728-4302-a5e7-171099928c00","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪ʘDEʘ⟪@LonUp_M⟫ʘ13","type":"vmess","server":"vip.new1server.ir","port":8080,"cipher":"auto","uuid":"d4dd4a24-42cb-43aa-933d-03fd337e3899","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vip.new1server.ir"}}}
+  - {"name":"🇺🇦ʘUAʘ⟪@LonUp_M⟫ʘ14","type":"ss","server":"195.28.182.217","port":51348,"password":"shwoghRia","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ15","type":"vmess","server":"203.30.188.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ16","type":"vmess","server":"20.205.214.65","port":10064,"cipher":"auto","uuid":"b8ec1401-e5c1-4299-b315-9694cca0c2f8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ17","type":"vmess","server":"movie3.fun1yearsfun.top","port":443,"cipher":"auto","uuid":"4eee4324-b746-11ed-afa1-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bypass123","headers":{"host":"movie3.fun1yearsfun.top"}}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ18","type":"vmess","server":"8.218.183.217","port":64098,"cipher":"auto","uuid":"7243a003-b59a-4686-b460-950fdf61819b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ19","type":"vmess","server":"20.205.214.65","port":35848,"cipher":"auto","uuid":"b8ec1401-e5c1-4299-b315-9694cca0c2f8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ20","type":"vmess","server":"8.218.183.204","port":59544,"cipher":"auto","uuid":"ed617ad5-803e-4dc6-b475-babead4c83e5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ21","type":"vmess","server":"8.218.184.220","port":52214,"cipher":"auto","uuid":"3b776f57-8b04-498e-89d7-cb5c640eede8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇲ʘAMʘ⟪@LonUp_M⟫ʘ22","type":"vmess","server":"185.162.228.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ23","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ24","type":"vmess","server":"203.30.189.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ25","type":"ss","server":"72.18.83.144","port":65001,"password":"f8949dfe-c501-453c-96b6-6786fb03d5f9","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ26","type":"vmess","server":"172.66.44.197","port":443,"cipher":"auto","uuid":"fa4cb529-3ac9-4268-bb04-ed4253813508","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mR17oBKzZ7","headers":{"host":"d.pgypgykmoljklj.xyz"}}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ27","type":"vmess","server":"8.218.168.163","port":42675,"cipher":"auto","uuid":"6f532e4c-1ea2-4e1d-a18a-af34c766ea02","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ28","type":"vmess","server":"46.245.65.97","port":20003,"cipher":"auto","uuid":"718e1c28-2d41-42c9-9143-19fa8f5c9ef4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ29","type":"vmess","server":"8.218.178.58","port":53207,"cipher":"auto","uuid":"9930e472-959f-4649-aa19-09354073fabc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ30","type":"vmess","server":"104.16.209.12","port":8880,"cipher":"auto","uuid":"0c664f44-9f69-454f-841a-4616715df26f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a7.iraniancp.fun"}}}
+proxy-groups:
+  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
+    type: url-test
+    url: 'http://detectportal.firefox.com/success.txt'
+    interval: 666
+    tolerance: 888
+    proxies:
+      - 🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ1
+      - 🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ2
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ3
+      - 🇺🇦ʘUAʘ⟪@LonUp_M⟫ʘ4
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ5
+      - 🇰🇷ʘKRʘ⟪@LonUp_M⟫ʘ6
+      - 🇯🇵ʘJPʘ⟪@LonUp_M⟫ʘ7
+      - 🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ8
+      - 🇯🇵ʘJPʘ⟪@LonUp_M⟫ʘ9
+      - 🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ10
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ11
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ12
+      - 🇩🇪ʘDEʘ⟪@LonUp_M⟫ʘ13
+      - 🇺🇦ʘUAʘ⟪@LonUp_M⟫ʘ14
+      - 🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ15
+      - 🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ16
+      - 🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ17
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ18
+      - 🇸🇬ʘSGʘ⟪@LonUp_M⟫ʘ19
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ20
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ21
+      - 🇦🇲ʘAMʘ⟪@LonUp_M⟫ʘ22
+      - 🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ23
+      - 🇧🇿ʘBZʘ⟪@LonUp_M⟫ʘ24
+      - 🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ25
+      - 🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ26
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ27
+      - 🇮🇷ʘIRʘ⟪@LonUp_M⟫ʘ28
+      - 🇭🇰ʘHKʘ⟪@LonUp_M⟫ʘ29
+      - 🇺🇸ʘUSʘ⟪@LonUp_M⟫ʘ30
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,⚡test 〄 Ꮮᝪᑎᑌᑭ
