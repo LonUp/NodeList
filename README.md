@@ -51,6 +51,7 @@
 3️⃣Clash for android✔️  [لینک دانلود](https://github.com/Kr328/ClashForAndroid/releases/download/v2.5.12/cfa-2.5.12-premium-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
 
 👁👄👁لیست کلاینت ها برای آیفون:
+
 👇#V2ray
 
 
@@ -66,6 +67,7 @@
 4️⃣OneClickVPN  [لینک دانلود](https://apps.apple.com/us/app/id1545555197) • [آموزش۱](https://t.me/LonUp_M/921?single)~[آموزش۲](https://t.me/LonUp_M/925)
 
 👁👄👁لیست کلاینت ها برای ویندوز:
+
 👇#V2ray
 
 1️⃣nekoray✔ [لینک دانلود](https://github.com/MatsuriDayo/nekoray/releases/download/2.20/nekoray-2.20-2023-03-25-windows64.zip) • [آموزش](https://t.me/LonUp_M/967)
@@ -95,4 +97,4 @@
 ‼نیاز نیست همه کلاینت هارو نصب کنید، نهایت یکی یا دوتا و ترجیحا اونهایی که جلوشون علامت تیک✔میزارم
 
 برای حمایت از ما جویین چنل بشید
-https://t.me/LonUp_M
+[@LonUp_M](https://t.me/LonUp_M)
