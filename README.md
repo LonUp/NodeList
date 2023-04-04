@@ -38,26 +38,30 @@
 
 6️⃣Surfboard [لینک دانلود](https://github.com/getsurfboard/surfboard/releases/download/2.20.6/mobile-universal-release.apk) • [آموزش](https://t.me/LonUp_M/997)
 
-7️⃣Shadosocks
-7️⃣[لینک دانلود](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.3.3/shadowsocks-universal-5.3.3.apk) • آموزش
+7️⃣Shadosocks  [لینک دانلود](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.3.3/shadowsocks-universal-5.3.3.apk) • آموزش
+
 👇#Clash
-1️⃣Hiddify
-1️⃣[لینک دانلود](https://github.com/hiddify/HiddifyProxyAndroid/releases/download/v0.14/hiddify-2.6.9-h0.14-meta-alpha-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
-2️⃣Clash.meta
-2️⃣[لینک دانلود](https://f-droid.org/repo/com.github.metacubex.clash.meta_207000.apk) • [آموزش](https://t.me/LonUp_M/947)
-3️⃣Clash for android✔
-3️⃣[لینک دانلود](https://github.com/Kr328/ClashForAndroid/releases/download/v2.5.12/cfa-2.5.12-premium-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
+
+1️⃣Hiddify  [لینک دانلود](https://github.com/hiddify/HiddifyProxyAndroid/releases/download/v0.14/hiddify-2.6.9-h0.14-meta-alpha-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
+
+2️⃣Clash.meta  [لینک دانلود](https://f-droid.org/repo/com.github.metacubex.clash.meta_207000.apk) • [آموزش](https://t.me/LonUp_M/947)
+
+3️⃣Clash for android✔️  [لینک دانلود](https://github.com/Kr328/ClashForAndroid/releases/download/v2.5.12/cfa-2.5.12-premium-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
 
 👁👄👁لیست کلاینت ها برای آیفون:
 👇#V2ray
-1️⃣fair✔
-1️⃣[لینک دانلود](https://apps.apple.com/us/app/fair-vpn/id1533873488) • [آموزش](https://t.me/LonUp_M/901?single)
-2️⃣shadowrocket✔
-2️⃣[لینک دانلود](https://apps.apple.com/us/app/shadowrocket/id932747118) • [آموزش۱](https://t.me/LonUp_M/923)~[آموزش۲](https://t.me/LonUp_M/924)
-3️⃣NV
-3️⃣[لینک دانلود](https://apps.apple.com/us/app/napsternetv/id1629465476) • آموزش
-4️⃣OneClickVPN
-4️⃣[لینک دانلود](https://apps.apple.com/us/app/id1545555197) • [آموزش۱](https://t.me/LonUp_M/921?single)~[آموزش۲](https://t.me/LonUp_M/925)
+
+
+1️⃣fair✔️  [لینک دانلود](https://apps.apple.com/us/app/fair-vpn/id1533873488) • [آموزش](https://t.me/LonUp_M/901?single)
+
+
+2️⃣shadowrocket✔️  [لینک دانلود](https://apps.apple.com/us/app/shadowrocket/id932747118) • [آموزش۱](https://t.me/LonUp_M/923)~[آموزش۲](https://t.me/LonUp_M/924)
+
+
+3️⃣NV  [لینک دانلود](https://apps.apple.com/us/app/napsternetv/id1629465476) • آموزش
+
+
+4️⃣OneClickVPN  [لینک دانلود](https://apps.apple.com/us/app/id1545555197) • [آموزش۱](https://t.me/LonUp_M/921?single)~[آموزش۲](https://t.me/LonUp_M/925)
 
 👁👄👁لیست کلاینت ها برای ویندوز:
 👇#V2ray
