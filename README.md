@@ -24,7 +24,8 @@
 
 🔆کلاینت هایی که پیشنهادی خودم هستند رو دانلود کنید و نصب کنید (علامت ✔ جلوشون میزارم) آموزش رو ببینید و کانفیگ هارو واردشون کنید و متصل بشید، اگه خوشتون نیومد میتونید کلاینت های دیگه رو تست کنید
 
-👁👄👁لیست کلاینت ها برای اندروید: 👇#V2ray
+👁👄👁لیست کلاینت ها برای اندروید:
+👇#V2ray
 
 1️⃣Matsuri✔[لینک دانلود](https://play.google.com/store/apps/details?id=moe.matsuri.lite) • [آموزش](https://t.me/LonUp_M/973)
 
@@ -65,28 +66,30 @@
 
 👁👄👁لیست کلاینت ها برای ویندوز:
 👇#V2ray
-1️⃣nekoray✔
-1️⃣[لینک دانلود](https://github.com/MatsuriDayo/nekoray/releases/download/2.20/nekoray-2.20-2023-03-25-windows64.zip) • [آموزش](https://t.me/LonUp_M/967)
-2️⃣v2rayN
-2️⃣[لینک دانلود](https://github.com/2dust/v2rayN/releases/download/5.39/v2rayN-Core.zip) • [آموزش](https://t.me/LonUp_M/969)
-3️⃣netch
-3️⃣[لینک دانلود](https://github.com/netchx/netch/releases/download/1.9.7/Netch.7z) • آموزش
-4️⃣sstap
-4️⃣[لینک دانلود](https://raw.githubusercontent.com/githello123/sstap/master/SSTap-beta-setup-1.1.0.1.exe.7z) • آموزش
-5️⃣Qv2ray
-5️⃣[لینک دانلود](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-Windows-Installer.exe)([Core](https://github.com/v2fly/v2ray-core/releases/download/v5.4.1/v2ray-windows-64.zip)) • آموزش
+
+1️⃣nekoray✔ [لینک دانلود](https://github.com/MatsuriDayo/nekoray/releases/download/2.20/nekoray-2.20-2023-03-25-windows64.zip) • [آموزش](https://t.me/LonUp_M/967)
+
+2️⃣v2rayN [لینک دانلود](https://github.com/2dust/v2rayN/releases/download/5.39/v2rayN-Core.zip) • [آموزش](https://t.me/LonUp_M/969)
+
+3️⃣netch [لینک دانلود](https://github.com/netchx/netch/releases/download/1.9.7/Netch.7z) • آموزش
+
+4️⃣sstap [لینک دانلود](https://raw.githubusercontent.com/githello123/sstap/master/SSTap-beta-setup-1.1.0.1.exe.7z) • آموزش
+
+5️⃣Qv2ray [لینک دانلود](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-Windows-Installer.exe)([Core](https://github.com/v2fly/v2ray-core/releases/download/v5.4.1/v2ray-windows-64.zip)) • آموزش
+
+
 👇#Clash
-1️⃣clash cfw✔
-1️⃣[لینک دانلود](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows.Setup.0.20.19.exe) • [آموزش](https://t.me/LonUp_M/968)
-2️⃣Clash Verge
-2️⃣[لینک دانلود](https://github.com/zzzgydi/clash-verge/releases/download/v1.3.0/Clash.Verge_1.3.0_x64_en-US.msi) • آموزش
-3️⃣Clash Dot net
-3️⃣[لینک دانلود](https://t.me/ClashDotNetFramework/12) • آموزش
+1️⃣clash cfw✔ [لینک دانلود](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows.Setup.0.20.19.exe) • [آموزش](https://t.me/LonUp_M/968)
+2️⃣Clash Verge [لینک دانلود](https://github.com/zzzgydi/clash-verge/releases/download/v1.3.0/Clash.Verge_1.3.0_x64_en-US.msi) • آموزش
+3️⃣Clash Dot net [لینک دانلود](https://t.me/ClashDotNetFramework/12) • آموزش
 
 لیست کامل تر که شامل سیستم عامل های بیشتر و کلاینت های بیشتری هست رو میتونید از اینجا مشاهده کنید👇👇
-[Advanced list of proxy clients](https://telegra.ph/لیست-بهترین-کلاینت%E2%80%8Cها-برای-اتصال-به-پروکسی-آموزش-01-26)
+
+🔗[Advanced list of proxy clients](https://telegra.ph/لیست-بهترین-کلاینت%E2%80%8Cها-برای-اتصال-به-پروکسی-آموزش-01-26)
+
 
 ⭕آموزش کار با Github و وارد کردن لینک ساب از گیت هاب: [Link](https://t.me/LonUp_M/927)
+
 ‼نیاز نیست همه کلاینت هارو نصب کنید، نهایت یکی یا دوتا و ترجیحا اونهایی که جلوشون علامت تیک✔میزارم
 
 برای حمایت از ما جویین چنل بشید
