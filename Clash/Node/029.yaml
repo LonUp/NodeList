@@ -25,7 +25,6 @@ dns:
     - https://8.8.8.8/dns-query#PROXY
     - https://1.0.0.1/dns-query#PROXY
     - https://basic.rethinkdns.com/dns-query
-
 proxies:
   - {"name":"⟮t.me/LonUp_M⟯⁜مخابرات▦1\r","type":"ss","server":"ak1641.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"⟮t.me/LonUp_M⟯⁜مخابرات▦3","type":"vmess","server":"nclubir.ddns.net","port":80,"cipher":"auto","uuid":"7ca844bc-7b82-4626-c744-0477554c5bc9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sn","headers":{"host":"/Soft98.ir"}}}
