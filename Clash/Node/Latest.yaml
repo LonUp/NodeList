@@ -25,7 +25,6 @@ dns:
     - https://8.8.8.8/dns-query#PROXY
     - https://1.0.0.1/dns-query#PROXY
     - https://basic.rethinkdns.com/dns-query
-
 proxies:
   - {"name":"⟮t.me/LonUp_M⟯ɷهمه⊜1","type":"vmess","server":"136.244.70.78","port":8443,"cipher":"auto","uuid":"6cb6b036-25a7-4330-ab66-9156f68ca101","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"⟮t.me/LonUp_M⟯ɷهمه⊜2","type":"vmess","server":"hopev2ray.ddns.net","port":443,"cipher":"auto","uuid":"dc9b5260-d246-11ed-b635-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@hopev2ray","headers":{"host":"us-netflix.0rd.net"}}}
