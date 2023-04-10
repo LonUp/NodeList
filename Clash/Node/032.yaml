@@ -29,7 +29,6 @@ proxies:
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑1","server":"74.119.192.36","port":38556,"cipher":"chacha20-ietf-poly1305","password":"GmfmweYODN7rICpJPmnlrI"}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑2","ws-opts":{"path":"/","headers":{"host":"h12.drlaban.ir"}},"server":"188.42.88.41","port":"2096","uuid":"c4e55377-8e24-4e40-bb43-559b894b7c8f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑3","server":"163.172.211.74","port":443,"password":"34dea460-bad1-11ed-94f5-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"tci.ir","network":"tcp"}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑4","server":"v18.solos.sbs","port":47559,"uuid":"2794f4d1-44dd-481a-af44-929712aeb9f3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑5","server":"51.77.57.30","port":19152,"cipher":"aes-256-cfb","password":"ae9c899be3"}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑6","ws-opts":{"path":"/"},"server":"45.77.61.111","port":"8443","uuid":"c80127d2-b3ae-4fa8-9338-598861a0ee3c","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑7","server":"192.121.87.147","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
@@ -73,7 +72,6 @@ proxies:
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑45","server":"95.174.71.27","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑46","server":"xn--lckxfc.xn--eck3aax7vbbk4l.xn--tckwe","port":10011,"password":"2af31107-e577-4995-8247-e8a57855e90b","udp":true,"skip-cert-verify":true,"sni":"xn--vck0bp0g2a4h.xn--ick8a8i.xn--tckwe","network":"tcp"}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑47","server":"37.123.192.9","port":443,"password":"3fb3b8b4e9","udp":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑48","server":"108.165.216.227","port":8443,"uuid":"fc03933c-9b0b-4eab-9c5f-626ea67c5bff","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"iraniancp.autos","ws-opts":{"path":"/?ed=2048","headers":{"host":"iraniancp.autos"}}}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑49","server":"ca.liangyuandian.top","port":443,"password":"cc55e294-b76f-425a-9301-c18afbecaa22","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑50","server":"ukjs.stablize.top","port":443,"password":"8d3fbaf4-029c-4d38-add0-e7f5d613ac5e","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑51","server":"146.185.248.22","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
@@ -118,9 +116,6 @@ proxies:
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑90","server":"kr1.t.sgateway.link","port":5223,"password":"TC64iX8lkokJaa3226ejFj3fgrNhMe5Q","udp":true,"skip-cert-verify":true,"sni":"$$pod-kr-2020712915.psusercontent.com","network":"tcp"}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑91","server":"34.219.219.240","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk","network":"tcp"}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑92","http-opts":{"path":["/"],"headers":{"Host":["www.google.com"]}},"server":"45.55.192.226","port":"23843","uuid":"86545f5a-2237-4690-8dea-697e48a71018","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑93","server":"s3.vip-senior.info","port":2083,"uuid":"02296b43-ed15-4507-b991-4f03949f77c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"alwaysdata.manitim.online","ws-opts":{"path":"/vless","headers":{"host":"alwaysdata.manitim.online"}}}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑94","server":"all.talanetwork.me","port":31655,"uuid":"b3872449-1930-442f-ab49-8a171818b202","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑95","server":"ah2.arsalantau.com","port":2052,"uuid":"01d74bc9-0215-45bc-9b15-1ed7cb771c98","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ah2.arsalantau.com","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"ah2.arsalantau.com"}}}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑96","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.autos"}},"server":"mci.mmdhossein20.tk","port":"2053","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑97","server":"142.4.104.201","port":"50502","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑98","server":"198.2.218.216","port":"51202","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
@@ -128,7 +123,6 @@ proxies:
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑100","ws-opts":{"path":"/hahuutung","headers":{"host":"vietnam8.azzphuc.pro"}},"server":"mci.mmdhossein20.tk","port":"80","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑101","server":"170.80.111.6","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"type":"ss","name":"⟪@LonUp_M⟫⁑102","server":"194.38.23.137","port":51348,"cipher":"chacha20-ietf-poly1305","password":"Neavl43FD6gFoims"}
-  - {"type":"vless","name":"⟪@LonUp_M⟫⁑103","server":"hamrahavaal.archive69.site","port":2087,"uuid":"4b1f2e5c-0a01-44a7-c69c-e259ef01ee7b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"chv2rayng.vipmodchanel.online","ws-opts":{"path":"@Ch_V2rayNG","headers":{"host":"chv2rayng.vipmodchanel.online"}}}
   - {"type":"vmess","name":"⟪@LonUp_M⟫⁑104","grpc-opts":{"grpc-service-name":"/"},"server":"170.114.45.249","port":"2087","uuid":"1b389677-d606-458c-a40f-941103d38ce4","alterId":"0","cipher":"none","network":"grpc","tls":true}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑105","server":"ml.xxass.ml","port":443,"password":"caonima2022","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"trojan","name":"⟪@LonUp_M⟫⁑106","server":"dejs.stablize.top","port":443,"password":"80151fd0-950a-4dda-a98a-6d24c6936dbc","udp":true,"skip-cert-verify":true,"sni":"dejs.stablize.top","network":"tcp"}
@@ -326,7 +320,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑1
       - ⟪@LonUp_M⟫⁑2
       - ⟪@LonUp_M⟫⁑3
-      - ⟪@LonUp_M⟫⁑4
       - ⟪@LonUp_M⟫⁑5
       - ⟪@LonUp_M⟫⁑6
       - ⟪@LonUp_M⟫⁑7
@@ -370,7 +363,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑45
       - ⟪@LonUp_M⟫⁑46
       - ⟪@LonUp_M⟫⁑47
-      - ⟪@LonUp_M⟫⁑48
       - ⟪@LonUp_M⟫⁑49
       - ⟪@LonUp_M⟫⁑50
       - ⟪@LonUp_M⟫⁑51
@@ -415,9 +407,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑90
       - ⟪@LonUp_M⟫⁑91
       - ⟪@LonUp_M⟫⁑92
-      - ⟪@LonUp_M⟫⁑93
-      - ⟪@LonUp_M⟫⁑94
-      - ⟪@LonUp_M⟫⁑95
       - ⟪@LonUp_M⟫⁑96
       - ⟪@LonUp_M⟫⁑97
       - ⟪@LonUp_M⟫⁑98
@@ -425,7 +414,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑100
       - ⟪@LonUp_M⟫⁑101
       - ⟪@LonUp_M⟫⁑102
-      - ⟪@LonUp_M⟫⁑103
       - ⟪@LonUp_M⟫⁑104
       - ⟪@LonUp_M⟫⁑105
       - ⟪@LonUp_M⟫⁑106
@@ -613,13 +601,15 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑288
       - ⟪@LonUp_M⟫⁑289
       - ⟪@LonUp_M⟫⁑290
-  - name: ALL 〄 @LonUp_M
+  - name: 🌐ALL 〄 @LonUp_M
     type: select
     proxies:
+      - DIRECT
+      - REJECT
+      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
       - ⟪@LonUp_M⟫⁑1
       - ⟪@LonUp_M⟫⁑2
       - ⟪@LonUp_M⟫⁑3
-      - ⟪@LonUp_M⟫⁑4
       - ⟪@LonUp_M⟫⁑5
       - ⟪@LonUp_M⟫⁑6
       - ⟪@LonUp_M⟫⁑7
@@ -663,7 +653,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑45
       - ⟪@LonUp_M⟫⁑46
       - ⟪@LonUp_M⟫⁑47
-      - ⟪@LonUp_M⟫⁑48
       - ⟪@LonUp_M⟫⁑49
       - ⟪@LonUp_M⟫⁑50
       - ⟪@LonUp_M⟫⁑51
@@ -708,9 +697,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑90
       - ⟪@LonUp_M⟫⁑91
       - ⟪@LonUp_M⟫⁑92
-      - ⟪@LonUp_M⟫⁑93
-      - ⟪@LonUp_M⟫⁑94
-      - ⟪@LonUp_M⟫⁑95
       - ⟪@LonUp_M⟫⁑96
       - ⟪@LonUp_M⟫⁑97
       - ⟪@LonUp_M⟫⁑98
@@ -718,7 +704,6 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑100
       - ⟪@LonUp_M⟫⁑101
       - ⟪@LonUp_M⟫⁑102
-      - ⟪@LonUp_M⟫⁑103
       - ⟪@LonUp_M⟫⁑104
       - ⟪@LonUp_M⟫⁑105
       - ⟪@LonUp_M⟫⁑106
@@ -906,4 +891,7 @@ proxy-groups:
       - ⟪@LonUp_M⟫⁑288
       - ⟪@LonUp_M⟫⁑289
       - ⟪@LonUp_M⟫⁑290
-
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,🌐ALL 〄 @LonUp_M
