@@ -1215,7 +1215,6 @@ proxies:
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1259","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1260","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"dc2d9db59868ba6b","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1261","type":"trojan","server":"awsjp1.untilmu.com","port":443,"udp":true,"password":"fcc3300f-80ea-4c96-b763-b24f1f939ecb","sni":"awsjp1.untilmu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1262","type":"ss","server":"@36.139.166.252","port":11023}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1263","type":"trojan","server":"150.230.96.103","port":443,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677","sni":"ghatreh.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1264","type":"trojan","server":"150.230.96.103","port":443,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677","sni":"$$timecity.ir","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1265","type":"trojan","server":"49.212.221.47","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true,"network":"tcp"}
@@ -1280,7 +1279,6 @@ proxies:
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1324","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1325","type":"trojan","server":"jgw3.gaox.ml","port":443,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1326","type":"ss","server":"139.162.41.174","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb"}
-  - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1327","type":"ss","server":"@36.137.106.45","port":11023}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1328","type":"trojan","server":"60.249.3.229","port":3389,"udp":true,"password":"182228812d1e0f23","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1329","type":"trojan","server":"jgwcc3.gaox.ml","port":443,"udp":true,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","sni":"enamad.ir","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1330","type":"trojan","server":"js04.balala2016.xyz","port":20261,"udp":true,"password":"ED177480-E516-11EA-8B44-BBC4E882BA0B","skip-cert-verify":true,"network":"tcp"}
@@ -1325,7 +1323,6 @@ proxies:
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1369","type":"trojan","server":"ygzyd.sub-nthu.com","port":35003,"udp":true,"password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1370","type":"ss","server":"43.201.60.60","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1371","type":"trojan","server":"219.94.250.108","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1372","type":"ss","server":"@36.138.140.208","port":11023}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1373","type":"vmess","server":"111.23.252.215","port":34214,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1374","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"0cc6b4268dea0ba8","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1375","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"b09d2aaa443af97a","skip-cert-verify":true,"network":"tcp"}
@@ -1437,7 +1434,6 @@ proxies:
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1481","type":"ss","server":"179.27.200.28","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1482","type":"trojan","server":"8h2k03.abzoones.xyz","port":36611,"udp":true,"password":"10941039-76ed-4aa5-9080-cd783db1c388","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1483","type":"trojan","server":"5m4h0k03.mcfront.xyz","port":31611,"udp":true,"password":"b2407f3b-555b-4fcc-9921-5851b95a94a6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1484","type":"ss","server":"@36.138.193.128","port":11023}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1485","type":"trojan","server":"8h2k03.abzoones.xyz","port":36611,"udp":true,"password":"0d0c0ece-6d96-4f37-8908-ca87c2eaaab2","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1486","type":"trojan","server":"8h2k03.abzoones.xyz","port":36611,"udp":true,"password":"39059679-327e-42b6-b97c-aed31e039959","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1487","type":"vmess","server":"45.131.248.209","port":39204,"cipher":"auto","uuid":"abc46ea0-d7c1-418c-c81b-0efff804070b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
@@ -1491,7 +1487,7 @@ proxies:
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1535","type":"trojan","server":"8h2k03.abzoones.xyz","port":36611,"udp":true,"password":"de0561ab-db6c-4c63-af19-4883462f92b4","skip-cert-verify":true,"network":"tcp"}
   - {"name":"⟮t.me/LonUp_M⟯‣مخابرات∷1536","type":"trojan","server":"183.213.200.205","port":28132,"udp":true,"password":"LIcgaj","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
-  - name: ⚡test
+  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
     type: url-test
     interval: 300
     tolerance: 500
@@ -2686,7 +2682,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1259
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1260
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1261
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1262
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1263
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1264
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1265
@@ -2751,7 +2746,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1324
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1325
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1326
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1327
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1328
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1329
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1330
@@ -2796,7 +2790,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1369
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1370
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1371
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1372
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1373
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1374
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1375
@@ -2908,7 +2901,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1481
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1482
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1483
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1484
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1485
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1486
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1487
@@ -4156,7 +4148,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1259
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1260
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1261
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1262
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1263
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1264
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1265
@@ -4221,7 +4212,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1324
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1325
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1326
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1327
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1328
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1329
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1330
@@ -4266,7 +4256,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1369
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1370
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1371
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1372
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1373
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1374
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1375
@@ -4378,7 +4367,6 @@ proxy-groups:
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1481
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1482
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1483
-      - ⟮t.me/LonUp_M⟯‣مخابرات∷1484
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1485
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1486
       - ⟮t.me/LonUp_M⟯‣مخابرات∷1487
@@ -4434,4 +4422,4 @@ proxy-groups:
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
-  - MATCH ,🌐ALL 〄 @LonUp_M
+  - MATCH ,🌐ALL 〄 ⟪@LonUp_M⟫
