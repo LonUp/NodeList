@@ -28,25 +28,21 @@
 
 👇#V2ray
 
-1️⃣Matsuri✔[لینک دانلود](https://play.google.com/store/apps/details?id=moe.matsuri.lite) • [آموزش](https://t.me/LonUp_M/973)
+1️⃣Matsuri✔[لینک دانلود](https://github.com/MatsuriDayo/Matsuri/releases/tag/0.6.2) • [آموزش](https://t.me/LonUp_M/973)
 
-2️⃣V2rayNG  [لینک دانلود](https://github.com/2dust/v2rayNG/releases/download/1.8.2/v2rayNG_1.8.2.apk) • [آموزش](https://t.me/LonUp_M/964)
+2️⃣V2rayNG  [لینک دانلود](https://github.com/2dust/v2rayNG/releases/download/1.8.3/v2rayNG_1.8.3.apk) • [آموزش](https://t.me/LonUp_M/964)
+
+3️⃣V2FlyNG  [لینک دانلود](https://github.com/2dust/v2flyNG/releases/download/1.7.18/v2flyNG_1.7.18.apk) • [آموزش](https://t.me/LonUp_M/964)
 
 3️⃣SSRRAY [لینک دانلود](https://github.com/xxf098/shadowsocksr-v2ray-trojan-android/releases/download/v3.8.23/ssrray-release-3.8.23.apk) • [آموزش](https://t.me/LonUp_M/994)
 
 4️⃣Trojan✔ [لینک دانلود](https://play.google.com/store/apps/details?id=com.crosserr.trojan) • [آموزش](https://t.me/LonUp_M/760)
 
-5️⃣Armod [لینک دانلود](https://play.google.com/store/apps/details?id=com.artunnel57) • [آموزش](https://t.me/LonUp_M/996)
-
-6️⃣Surfboard [لینک دانلود](https://github.com/getsurfboard/surfboard/releases/download/2.20.6/mobile-universal-release.apk) • [آموزش](https://t.me/LonUp_M/997)
-
-7️⃣Shadosocks  [لینک دانلود](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.3.3/shadowsocks-universal-5.3.3.apk) • آموزش
 
 👇#Clash
 
 1️⃣Hiddify  [لینک دانلود](https://github.com/hiddify/HiddifyProxyAndroid/releases/download/v0.14/hiddify-2.6.9-h0.14-meta-alpha-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
 
-2️⃣Clash.meta  [لینک دانلود](https://f-droid.org/repo/com.github.metacubex.clash.meta_207000.apk) • [آموزش](https://t.me/LonUp_M/947)
 
 3️⃣Clash for android✔️  [لینک دانلود](https://github.com/Kr328/ClashForAndroid/releases/download/v2.5.12/cfa-2.5.12-premium-universal-release.apk) • [آموزش](https://t.me/LonUp_M/947)
 
@@ -66,6 +62,13 @@
 
 4️⃣OneClickVPN  [لینک دانلود](https://apps.apple.com/us/app/id1545555197) • [آموزش۱](https://t.me/LonUp_M/921?single)~[آموزش۲](https://t.me/LonUp_M/925)
 
+
+5️⃣v2box   لینک دانلود • آموزش
+
+
+6️⃣wingsV  لینک دانلود • آموزش
+
+
 👁👄👁لیست کلاینت ها برای ویندوز:
 
 👇#V2ray
@@ -74,22 +77,14 @@
 
 2️⃣v2rayN [لینک دانلود](https://github.com/2dust/v2rayN/releases/download/5.39/v2rayN-Core.zip) • [آموزش](https://t.me/LonUp_M/969)
 
-3️⃣netch [لینک دانلود](https://github.com/netchx/netch/releases/download/1.9.7/Netch.7z) • آموزش
-
-4️⃣sstap [لینک دانلود](https://raw.githubusercontent.com/githello123/sstap/master/SSTap-beta-setup-1.1.0.1.exe.7z) • آموزش
-
-5️⃣Qv2ray [لینک دانلود](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-Windows-Installer.exe)([Core](https://github.com/v2fly/v2ray-core/releases/download/v5.4.1/v2ray-windows-64.zip)) • آموزش
-
 
 👇#Clash
 
 1️⃣clash cfw✔ [لینک دانلود](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows.Setup.0.20.19.exe) • [آموزش](https://t.me/LonUp_M/968)
 
-2️⃣Clash Verge [لینک دانلود](https://github.com/zzzgydi/clash-verge/releases/download/v1.3.0/Clash.Verge_1.3.0_x64_en-US.msi) • آموزش
+2️⃣FClash [لینک دانلود](https://github.com/Fclash/Fclash/releases/tag/v1.4.0) • آموزش
 
-3️⃣Clash Dot net [لینک دانلود](https://t.me/ClashDotNetFramework/12) • آموزش
-
-لیست کامل تر که شامل سیستم عامل های بیشتر و کلاینت های بیشتری هست رو میتونید از اینجا مشاهده کنید👈🔗[Advanced list of proxy clients](https://telegra.ph/لیست-بهترین-کلاینت%E2%80%8Cها-برای-اتصال-به-پروکسی-آموزش-01-26)
+لیست کامل تر که شامل سیستم عامل های بیشتر و کلاینت های بیشتری هست رو میتونید از اینجا مشاهده کنید👈🔗[Advanced list of proxy clients](https://github.com/LonUp/NodeList/wiki/%D9%84%DB%8C%D8%B3%D8%AA-%DA%A9%D8%A7%D9%85%D9%84-%DA%A9%D9%84%D8%A7%DB%8C%D9%86%D8%AA-%D9%87%D8%A7%F0%9F%9A%A8)
 
 
 ⭕آموزش کار با Github و وارد کردن لینک ساب از گیت هاب: [Link](https://t.me/LonUp_M/927)
