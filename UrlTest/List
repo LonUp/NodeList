@@ -88,3 +88,5 @@ http://www.gstatic.com/generate_204
 http://clients3.google.com/generate_204
 http://connectivitycheck.android.com/generate_204
 http://connectivitycheck.gstatic.com/generate_204
+https://api.telegram.org/robots.txt
+t.me
