@@ -3,10 +3,10 @@ http://connectivitycheck.gstatic.com/generate_204
 http://www.google.com/gen_204
 http://www.gstatic.com/generate_204
 http://connect.rom.miui.com/generate_204
-HTTP : http://connectivity.gstatic.com/generate_204
-HTTPS : https://www.google.com/generate_204
-Fallback : http://www.google.com/generate_204
-Other fallback : http://play.googleapis.com/generate_204
+http://connectivity.gstatic.com/generate_204
+https://www.google.com/generate_204
+http://www.google.com/generate_204
+http://play.googleapis.com/generate_204
 http://cp.cloudflare.com/
 http://captive.apple.com
 http://detectportal.firefox.com/success.txt
@@ -14,3 +14,43 @@ http://cp.cloudflare.com/generate_204
 http://www.qualcomm.cn/generate_204
 http://www.msftconnecttest.com/connecttest.txt
 http://www.apple.com/library/test/success.html
+https://www.gstatic.com/generate_204
+https://www.google-analytics.com/generate_204
+https://www.google.com/generate_204
+https://connectivitycheck.gstatic.com/generate_204
+https://browserleaks.com/ip
+https://api.v2fly.org/checkConnection.svgz
+https://captive.apple.com
+https://www.apple.com/library/test/success.html
+https://www.msftconnecttest.com/connecttest.txt
+https://cp.cloudflare.com/
+https://speed.cloudflare.com
+https://detectportal.firefox.com/success.txt
+https://www.v2ex.com/generate_204
+https://connect.rom.miui.com/generate_204
+https://connectivitycheck.platform.hicloud.com/generate_204
+https://wifi.vivo.com.cn/generate_204
+https://check.firewalla.com
+https://cp.cloudflare.com 
+https://clients3.google.com/generate_204 
+https://www.gstatic.com/generate_204 
+https://detectportal.firefox.com/success.txt
+https://connectivitycheck.android.com/generate_204
+http://clients3.google.com/generate_204
+http://www.gstatic.com/generate_204
+http://172.217.6.238/generate_204
+http://captiveportal.kuketz.de
+https://e.foundation/net_204/
+https://elementary.io/generate_204
+http://httpstat.us/204
+http://captive.apple.com/hotspot-detect.html
+http://www.apple.com/library/test/success.html
+http://attwifi.apple.com/library/test/success.html
+http://www.msftncsi.com/ncsi.txt
+http://connectivitycheck.grapheneos.network/generate_204
+https://connectivitycheck.grapheneos.network/generate_204
+http://grapheneos.online/gen_204
+http://grapheneos.online/generate_204
+http://captiveportal.kuketz.de
+https://captiveportal.kuketz.de
+https://captive.v2ex.co/generate_204
