@@ -1,0 +1,52 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+external-controller: 127.0.0.1:9090
+allow-lan: true
+log-level: info
+cfw-latency-timeout: 7000
+cfw-latency-url: http://www.google-analytics.com/generate_204
+cfw-proxies-order: latency
+experimental:
+  ignore-resolve-fail: true
+ipv6: false
+mode: rule
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  use-hosts: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:6868
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
+  nameserver:
+    - https://1.1.1.1/dns-query#PROXY
+    - https://8.8.8.8/dns-query#PROXY
+    - https://1.0.0.1/dns-query#PROXY
+    - https://basic.rethinkdns.com/dns-query
+proxies:
+  - *
+proxy-groups:
+  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
+    type: url-test
+    interval: 300
+    tolerance: 500
+    url: http://cp.cloudflare.com
+    proxies:
+      - *
+  - name: 🌐ALL 〄 ⟪@LonUp_M⟫
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
+      - *
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,🌐ALL 〄 ⟪@LonUp_M⟫
