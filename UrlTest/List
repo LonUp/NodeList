@@ -65,7 +65,7 @@ http://www.gstatic.com/generate_204
 http://www.google-analytics.com/generate_204
 http://www.google.com/generate_204
 http://connectivitycheck.gstatic.com/generate_204
-http://captive.apple.com	3	10	200⁄200	4+6
+http://captive.apple.com
 http://www.apple.com/library/test/success.html
 http://www.msftconnecttest.com/connecttest.txt
 http://cp.cloudflare.com/
