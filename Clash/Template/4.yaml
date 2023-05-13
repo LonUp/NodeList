@@ -6,7 +6,7 @@ external-controller: 127.0.0.1:9090
 allow-lan: true
 log-level: info
 cfw-latency-timeout: 7000
-cfw-latency-url: http://www.google-analytics.com/generate_204
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
 cfw-proxies-order: latency
 experimental:
   ignore-resolve-fail: true
@@ -32,19 +32,19 @@ dns:
 proxies:
   - *
 proxy-groups:
+  - name: 🌐ALL 〄 ⟪@LonUp_M⟫
+    type: select
+    proxies:
+      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
+      - DIRECT
+      - REJECT
+      - *
   - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
     type: url-test
     interval: 300
     tolerance: 500
-    url: http://cp.cloudflare.com
+    url: https://api.v2fly.org/checkConnection.svgz
     proxies:
-      - *
-  - name: 🌐ALL 〄 ⟪@LonUp_M⟫
-    type: select
-    proxies:
-      - DIRECT
-      - REJECT
-      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
       - *
 rules:
   - GEOIP,IR,DIRECT
