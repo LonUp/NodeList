@@ -25,10 +25,10 @@ dns:
     - 8.8.8.8
     - 1.0.0.1
   nameserver:
-    - https://1.1.1.1/dns-query#PROXY
-    - https://8.8.8.8/dns-query#PROXY
-    - https://1.0.0.1/dns-query#PROXY
-    - https://basic.rethinkdns.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dns.adguard.com/dns-query
 proxies:
   - *
 proxy-groups:
