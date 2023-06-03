@@ -1,0 +1,55 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+external-controller: 127.0.0.1:9090
+allow-lan: true
+log-level: info
+cfw-latency-timeout: 7000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
+experimental:
+  ignore-resolve-fail: true
+ipv6: false
+mode: rule
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  use-hosts: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:6868
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dns.adguard.com/dns-query
+proxies:
+  - {"name":"⚡️Telegram : @LonUp_M","type":"ss","server":"beeconf.xyz","port":8080,"password":"Z1wBgCIV329qt77IFvDEGE","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔥Telegram : @LonUp_M","type":"ss","server":"masting.xyz","port":8080,"password":"XlUFgoOqDlVqlZFD3Js0YA","cipher":"chacha20-ietf-poly1305"}
+proxy-groups:
+  - name: 🌐ALL
+    type: select
+    proxies:
+      - ⚡test
+      - DIRECT
+      - REJECT
+      - '⚡️Telegram : @LonUp_M'
+      - '🔥Telegram : @LonUp_M'
+  - name: ⚡test
+    type: url-test
+    interval: 300
+    tolerance: 500
+    url: https://api.v2fly.org/checkConnection.svgz
+    proxies:
+      - '⚡️Telegram : @LonUp_M'
+      - '🔥Telegram : @LonUp_M'
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,🌐ALL
