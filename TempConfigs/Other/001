@@ -1,0 +1,124 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+external-controller: 127.0.0.1:9090
+allow-lan: true
+log-level: info
+cfw-latency-timeout: 7000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
+experimental:
+  ignore-resolve-fail: true
+ipv6: false
+mode: rule
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  use-hosts: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:6868
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dns.adguard.com/dns-query
+proxies:
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹1","ws-opts":{"path":"/"},"server":"192.248.185.94","port":2053,"uuid":"4134efe7-d935-416c-c2cc-24943e4a80ca","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹2","ws-opts":{"path":"/"},"server":"192.248.185.94","port":2083,"uuid":"ce03a832-d6bb-45a3-9121-f7bd6f189469","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹3","ws-opts":{"path":"/"},"server":"192.248.185.94","port":2087,"uuid":"d5350465-ab63-4d30-ebda-5cbe0751cbd6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹4","ws-opts":{"path":"/"},"server":"192.248.185.94","port":2096,"uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹5","ws-opts":{"path":"/"},"server":"192.248.185.94","port":8443,"uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹6","ws-opts":{"path":"/"},"server":"95.179.251.214","port":2053,"uuid":"4134efe7-d935-416c-c2cc-24943e4a80ca","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹7","ws-opts":{"path":"/"},"server":"95.179.251.214","port":2083,"uuid":"ce03a832-d6bb-45a3-9121-f7bd6f189469","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹8","ws-opts":{"path":"/"},"server":"95.179.251.214","port":2087,"uuid":"d5350465-ab63-4d30-ebda-5cbe0751cbd6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹9","ws-opts":{"path":"/"},"server":"95.179.251.214","port":2096,"uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹10","ws-opts":{"path":"/"},"server":"95.179.251.214","port":8443,"uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹11","ws-opts":{"path":"/"},"server":"108.61.199.46","port":2053,"uuid":"4134efe7-d935-416c-c2cc-24943e4a80ca","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹12","ws-opts":{"path":"/"},"server":"108.61.199.46","port":2083,"uuid":"ce03a832-d6bb-45a3-9121-f7bd6f189469","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹13","ws-opts":{"path":"/"},"server":"108.61.199.46","port":2087,"uuid":"d5350465-ab63-4d30-ebda-5cbe0751cbd6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹14","ws-opts":{"path":"/"},"server":"108.61.199.46","port":2096,"uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹15","ws-opts":{"path":"/"},"server":"108.61.199.46","port":8443,"uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹16","ws-opts":{"path":"/"},"server":"45.77.66.31","port":2053,"uuid":"4134efe7-d935-416c-c2cc-24943e4a80ca","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹17","ws-opts":{"path":"/"},"server":"45.77.66.31","port":2083,"uuid":"ce03a832-d6bb-45a3-9121-f7bd6f189469","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹18","ws-opts":{"path":"/"},"server":"45.77.66.31","port":2087,"uuid":"d5350465-ab63-4d30-ebda-5cbe0751cbd6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹19","ws-opts":{"path":"/"},"server":"45.77.66.31","port":2096,"uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹20","ws-opts":{"path":"/"},"server":"45.77.66.31","port":8443,"uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹21","ws-opts":{"path":"/"},"server":"192.248.161.78","port":2053,"uuid":"4134efe7-d935-416c-c2cc-24943e4a80ca","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹22","ws-opts":{"path":"/"},"server":"192.248.161.78","port":2083,"uuid":"ce03a832-d6bb-45a3-9121-f7bd6f189469","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹23","ws-opts":{"path":"/"},"server":"192.248.161.78","port":2087,"uuid":"d5350465-ab63-4d30-ebda-5cbe0751cbd6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹24","ws-opts":{"path":"/"},"server":"192.248.161.78","port":2096,"uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹25","ws-opts":{"path":"/"},"server":"192.248.161.78","port":8443,"uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"cipher":"auto","network":"ws"}
+proxy-groups:
+  - name: 🌐ALL
+    type: select
+    proxies:
+      - ⚡test
+      - DIRECT
+      - REJECT
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹1
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹2
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹3
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹4
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹5
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹6
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹7
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹8
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹9
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹10
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹11
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹12
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹13
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹14
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹15
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹16
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹17
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹18
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹19
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹20
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹21
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹22
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹23
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹24
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹25
+  - name: ⚡test
+    type: url-test
+    interval: 300
+    tolerance: 500
+    url: https://api.v2fly.org/checkConnection.svgz
+    proxies:
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹1
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹2
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹3
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹4
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹5
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹6
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹7
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹8
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹9
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹10
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹11
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹12
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹13
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹14
+      - 🇳🇱𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹15
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹16
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹17
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹18
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹19
+      - 🇩🇪𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹20
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹21
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹22
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹23
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹24
+      - 🇬🇧𖤹🆔⟮T.me/LonUp_M⟯🍁𖤹25
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,🌐ALL
