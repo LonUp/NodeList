@@ -29,6 +29,7 @@ dns:
     - https://8.8.8.8/dns-query
     - https://1.0.0.1/dns-query
     - https://dns.adguard.com/dns-query
+
 proxies:
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛1","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"noisy-wave-9582.sourgalma3363.workers.dev"}},"server":"104.20.164.38","port":443,"uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛2","ws-opts":{"path":"/Lille.kotick.site:443/speedtest","headers":{"host":"bold-mud-c089.owotaa.workers.dev"}},"server":"104.16.153.72","port":443,"uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"cipher":"auto","network":"ws","tls":true}
@@ -1134,7 +1135,7 @@ proxy-groups:
       - 🇮🇱𖤛⟪@LonUp_M⟫𖤛321
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛322
       - 🇯🇵𖤛⟪@LonUp_M⟫𖤛323
-      - ⟪@LonUp_M⟫𖤛324
+      - ⟪@LuxyNet⟫𖤛324
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛325
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛326
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛327
@@ -1366,6 +1367,7 @@ proxy-groups:
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛567
       - 🇩🇪𖤛⟪@LonUp_M⟫𖤛568
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛569
+
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
