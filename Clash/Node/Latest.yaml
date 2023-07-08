@@ -607,7 +607,7 @@ proxy-groups:
   - name: 🌐ALL
     type: select
     proxies:
-      - ⚡test(خرید سرویس اختصاصی پر سرعت: @LuxyNet)
+      - ⚡test(@LuxyNet)
       - DIRECT
       - REJECT
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛1
@@ -1179,7 +1179,7 @@ proxy-groups:
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛567
       - 🇩🇪𖤛⟪@LonUp_M⟫𖤛568
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛569
-  - name: ⚡test(خرید سرویس اختصاصی پر سرعت: @LuxyNet)
+  - name: ⚡test(@LuxyNet)
     type: url-test
     interval: 300
     tolerance: 500
