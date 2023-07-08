@@ -240,7 +240,7 @@ proxies:
   - {"type":"ss","name":"🇮🇱𖤛⟪@LonUp_M⟫𖤛321","server":"193.182.144.183","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛322","server":"129.146.133.157","port":51009,"uuid":"81714cef-9bde-4a08-aa50-d6bc0172d78b","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"🇯🇵𖤛⟪@LonUp_M⟫𖤛323","server":"trs22.bolab.net","port":443,"password":"7a73f1dc97a70905870c0c0484b12145","udp":true,"skip-cert-verify":true,"sni":"trs22.bolab.net","network":"tcp"}
-  - {"type":"ss","name":"⟪@LonUp_M⟫𖤛324","server":"[","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🆔𖤛⟪@LuxyNet⟫𖤛324","server":"[","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛325","ws-opts":{"path":"/path/080712342310"},"server":"23.224.110.183","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"🇫🇷𖤛⟪@LonUp_M⟫𖤛326","server":"ak1772.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"trojan","name":"🇫🇷𖤛⟪@LonUp_M⟫𖤛327","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","udp":true,"skip-cert-verify":true,"sni":"softsaaz.ir","network":"tcp"}
