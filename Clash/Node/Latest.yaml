@@ -29,7 +29,6 @@ dns:
     - https://8.8.8.8/dns-query
     - https://1.0.0.1/dns-query
     - https://dns.adguard.com/dns-query
-
 proxies:
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛1","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"noisy-wave-9582.sourgalma3363.workers.dev"}},"server":"104.20.164.38","port":443,"uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛2","ws-opts":{"path":"/Lille.kotick.site:443/speedtest","headers":{"host":"bold-mud-c089.owotaa.workers.dev"}},"server":"104.16.153.72","port":443,"uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"cipher":"auto","network":"ws","tls":true}
@@ -472,7 +471,6 @@ proxies:
   - {"type":"vmess","name":"🇫🇷𖤛⟪@LonUp_M⟫𖤛567","ws-opts":{"path":"/"},"server":"51.158.98.130","port":443,"uuid":"8ec62dcf-9ead-48d6-afec-4aa4ed264a95","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇩🇪𖤛⟪@LonUp_M⟫𖤛568","server":"130.61.179.77","port":20574,"uuid":"87e3048a-5932-457a-84b9-deb51b5c91cd","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"🇫🇷𖤛⟪@LonUp_M⟫𖤛569","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","udp":true,"skip-cert-verify":true,"network":"tcp"}
-
 proxy-groups:
   - name: 🌐ALL
     type: select
@@ -1364,7 +1362,6 @@ proxy-groups:
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛567
       - 🇩🇪𖤛⟪@LonUp_M⟫𖤛568
       - 🇫🇷𖤛⟪@LonUp_M⟫𖤛569
-
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
