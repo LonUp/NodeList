@@ -111,7 +111,6 @@ proxies:
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛108","ws-opts":{"path":"/4a5yXsGODBM1cvl9TzyF0SHR3v"},"server":"47.89.192.94","port":80,"uuid":"301d815f-a02a-4c2c-a424-b16cf0a241ae","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛109","ws-opts":{"path":"/PxcYlDIHtv3GtsBfhm1AaayIV"},"server":"47.89.229.201","port":80,"uuid":"0dce8b7e-4189-427b-95b7-93fc55d25115","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛110","ws-opts":{"path":"/qwer","headers":{"host":"bl.wang66.homes"}},"server":"162.159.18.254","port":80,"uuid":"10fe4d4d-a97b-416d-a71b-36c772a6729f","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳𖤛⟪@LonUp_M⟫𖤛111","server":"$*@14.29.124.168","port":24000,"cipher":"null","password":"undefined"}
   - {"type":"vmess","name":"🇭🇰𖤛⟪@LonUp_M⟫𖤛112","ws-opts":{"path":"/","headers":{"host":"2719282c-4000-a453-3226-78a71e0b6145.fltbzss.cn"}},"server":"2719282c-4000-a453-3226-78a71e0b6145.fltbzss.cn","port":443,"uuid":"2913d414-bc4b-4246-b83f-122cf652de3e","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛113","ws-opts":{"path":"/path/1688270963716"},"server":"23.224.255.248","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇺🇸𖤛⟪@LonUp_M⟫𖤛114","ws-opts":{"path":"/path/1687165779141"},"server":"172.247.104.59","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true}
@@ -561,7 +560,6 @@ proxy-groups:
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛108
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛109
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛110
-      - 🇨🇳𖤛⟪@LonUp_M⟫𖤛111
       - 🇭🇰𖤛⟪@LonUp_M⟫𖤛112
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛113
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛114
@@ -1007,7 +1005,6 @@ proxy-groups:
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛108
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛109
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛110
-      - 🇨🇳𖤛⟪@LonUp_M⟫𖤛111
       - 🇭🇰𖤛⟪@LonUp_M⟫𖤛112
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛113
       - 🇺🇸𖤛⟪@LonUp_M⟫𖤛114
