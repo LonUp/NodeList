@@ -140,7 +140,7 @@ proxies:
   - {"name":"🆔@LuxyNet💎❖🇳🇱❖NL❖161","type":"ss","server":"passconf.xyz","port":8080,"password":"qGjmI8WQlF0tfhDbkLqGdN","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🆔@LuxyNet💎❖🇫🇷❖FR❖162","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"Kq3iQqtVlyPJBPcD6QpnGE","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🆔@LuxyNet💎❖🇨🇳❖CN❖163","type":"ss","server":"p1.bxy-fun1.com","port":30470,"password":"d7bee830-09aa-43b2-8945-3b341b8787db","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🆔@LuxyNet💎❖🇮🇷❖IR❖164","type":"ss","server":"own9.v2rn.top","port":56876,"password":"undefined","cipher":"null"}
+  - {"name":"🆔@LuxyNet💎❖🇮🇷❖IR❖164","type":"ss","server":"own9.v2rn.top","port":56876,"password":"undefined","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖167","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"chacha20-poly1305","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":"de5.irteh.fun"}}}
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖168","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":"de5.irteh.fun"}}}
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖169","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":"de5.irteh.fun"}}}
