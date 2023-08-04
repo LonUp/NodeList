@@ -456,7 +456,7 @@ proxies:
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖682","type":"vmess","server":"47.253.84.189","port":443,"cipher":"auto","uuid":"cacc6b45-94c5-4d9e-a839-5d69cdd346eb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/swoole","headers":{"host":"us29.ulifeai.com"}}}
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖683","type":"vmess","server":"47.253.60.200","port":443,"cipher":"auto","uuid":"b36473e1-49c5-438e-85c4-d56796200585","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/swoole","headers":{"host":"us30.ulifeai.com"}}}
   - {"name":"🆔@LuxyNet💎❖🇺🇸❖US❖684","type":"vmess","server":"47.253.55.72","port":443,"cipher":"auto","uuid":"aa482fd0-21fc-4f24-974a-987a6c75a05d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/swoole","headers":{"host":"us31.ulifeai.com"}}}
-  - {"name":"🆔@LuxyNet💎❖🇩🇪❖DE❖685","type":"ss","server":"46.4.162.18","port":30696,"password":"undefined","cipher":"null"}
+  - {"name":"🆔@LuxyNet💎❖🇩🇪❖DE❖685","type":"ss","server":"46.4.162.18","port":30696,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🆔@LuxyNet💎❖🇲🇰❖MK❖686","type":"ss","server":"46.183.185.37","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🆔@LuxyNet💎❖🇭🇷❖HR❖687","type":"ss","server":"46.183.184.64","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🆔@LuxyNet💎❖🇭🇷❖HR❖688","type":"ss","server":"46.183.184.61","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
